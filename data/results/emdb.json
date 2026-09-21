@@ -1,0 +1,340 @@
+{
+  "resolution_over_time": {
+    "median_by_year": {
+      "2005": {
+        "median_res": 18.0,
+        "n": 72
+      },
+      "2006": {
+        "median_res": 20.0,
+        "n": 126
+      },
+      "2007": {
+        "median_res": 15.5,
+        "n": 139
+      },
+      "2008": {
+        "median_res": 17.0,
+        "n": 140
+      },
+      "2009": {
+        "median_res": 12.0,
+        "n": 141
+      },
+      "2010": {
+        "median_res": 14.05,
+        "n": 242
+      },
+      "2011": {
+        "median_res": 16.25,
+        "n": 260
+      },
+      "2012": {
+        "median_res": 18.0,
+        "n": 387
+      },
+      "2013": {
+        "median_res": 17.0,
+        "n": 489
+      },
+      "2014": {
+        "median_res": 20.0,
+        "n": 643
+      },
+      "2015": {
+        "median_res": 8.9,
+        "n": 673
+      },
+      "2016": {
+        "median_res": 6.8,
+        "n": 1060
+      },
+      "2017": {
+        "median_res": 6.2,
+        "n": 1273
+      },
+      "2018": {
+        "median_res": 4.5,
+        "n": 2043
+      },
+      "2019": {
+        "median_res": 3.78,
+        "n": 2744
+      },
+      "2020": {
+        "median_res": 3.8,
+        "n": 4214
+      },
+      "2021": {
+        "median_res": 3.5,
+        "n": 5559
+      },
+      "2022": {
+        "median_res": 3.4,
+        "n": 7234
+      },
+      "2023": {
+        "median_res": 3.3,
+        "n": 9077
+      },
+      "2024": {
+        "median_res": 3.3,
+        "n": 7810
+      },
+      "2025": {
+        "median_res": 3.4,
+        "n": 717
+      }
+    },
+    "frac_sub4A_by_year": {
+      "2010": 0.024793388429752067,
+      "2011": 0.0038461538461538464,
+      "2012": 0.0103359173126615,
+      "2013": 0.018404907975460124,
+      "2014": 0.06220839813374806,
+      "2015": 0.20356612184249628,
+      "2016": 0.22358490566037736,
+      "2017": 0.2631578947368421,
+      "2018": 0.38472834067547723,
+      "2019": 0.5787172011661808,
+      "2020": 0.5536307546274324,
+      "2021": 0.6675661090124123,
+      "2022": 0.7160630356649157,
+      "2023": 0.7629172634130219,
+      "2024": 0.7596670934699103,
+      "2025": 0.694560669456067
+    },
+    "overall_median": 3.6,
+    "n_with_resolution": 45151
+  },
+  "by_method": {
+    "single particle": {
+      "n": 39624,
+      "n_with_res": 39568,
+      "median_res": 3.5
+    },
+    "subtomogram avg": {
+      "n": 2725,
+      "n_with_res": 2628,
+      "median_res": 21.84
+    },
+    "tomography": {
+      "n": 2292,
+      "n_with_res": 752,
+      "median_res": 25.0
+    },
+    "helical": {
+      "n": 2067,
+      "n_with_res": 2062,
+      "median_res": 3.585
+    },
+    "crystallography": {
+      "n": 192,
+      "n_with_res": 141,
+      "median_res": 2.1
+    },
+    "other": {
+      "n": 0,
+      "n_with_res": 0,
+      "median_res": null
+    }
+  },
+  "pdb_rate_by_resolution": {
+    "0-3A": {
+      "n": 8967,
+      "pdb_rate": 0.7898962863834058
+    },
+    "3-4A": {
+      "n": 18759,
+      "pdb_rate": 0.7681646143184605
+    },
+    "4-6A": {
+      "n": 6030,
+      "pdb_rate": 0.5870646766169154
+    },
+    "6-10A": {
+      "n": 4026,
+      "pdb_rate": 0.33954297069051165
+    },
+    "10-infA": {
+      "n": 7369,
+      "pdb_rate": 0.07952232324603067
+    }
+  },
+  "substantiation": {
+    "n": 1600,
+    "res_type_counts": {
+      "BY AUTHOR": 1600
+    },
+    "method_counts": {
+      "FSC 0.143 CUT-OFF": 1363,
+      "FSC 0.5 CUT-OFF": 129,
+      "OTHER": 95,
+      "DIFFRACTION PATTERN/LAYERLINES": 5,
+      "FSC 0.33 CUT-OFF": 3,
+      "nan": 2
+    },
+    "frac_fsc0143": 0.851875,
+    "frac_other": 0.059375,
+    "frac_fsc0143_census_weighted": 0.8598340351812367,
+    "census_pre_post": {
+      "pre": 21683,
+      "post": 25217
+    },
+    "sample_single_particle_frac": 0.879375,
+    "census_single_particle_frac": 0.8448614072494669,
+    "fsc0143_pre_mandate": 0.74625,
+    "fsc0143_post_mandate": 0.9575,
+    "n_pre": 800,
+    "n_post": 800,
+    "mandate_ztest_p": 0.0,
+    "fsc0143_by_year_bucket": {
+      "2002-2013": {
+        "frac_fsc0143": 0.02666666666666667,
+        "n": 75,
+        "n_fsc0143": 2,
+        "wilson95_lo": 0.007343689006131395,
+        "wilson95_hi": 0.09211488187759151
+      },
+      "2014-2017": {
+        "frac_fsc0143": 0.4666666666666667,
+        "n": 150,
+        "n_fsc0143": 70,
+        "wilson95_lo": 0.38866050759928206,
+        "wilson95_hi": 0.5463375086919231
+      },
+      "2018-2021": {
+        "frac_fsc0143": 0.9107468123861566,
+        "n": 549,
+        "n_fsc0143": 500,
+        "wilson95_lo": 0.8839558145389804,
+        "wilson95_hi": 0.9318296024267815
+      },
+      "2022-2026": {
+        "frac_fsc0143": 0.9576271186440678,
+        "n": 826,
+        "n_fsc0143": 791,
+        "wilson95_lo": 0.9416405085293128,
+        "wilson95_hi": 0.9693768815567021
+      }
+    },
+    "residual_non_fsc0143_post_mandate": {
+      "n_post": 800,
+      "n_post_fsc0143": 766,
+      "frac_post_fsc0143": 0.9575,
+      "n_post_non_fsc0143": 34,
+      "frac_post_non_fsc0143": 0.0425,
+      "frac_post_non_fsc0143_wilson95": [
+        0.03057072542368845,
+        0.05880194630450513
+      ],
+      "alt_criterion_counts": {
+        "FSC 0.5 CUT-OFF": 24,
+        "OTHER": 7,
+        "FSC 3 SIGMA CUT-OFF": 1,
+        "FSC 0.33 CUT-OFF": 1,
+        "nan": 1
+      },
+      "non_fsc0143_by_method": {
+        "single particle": {
+          "n": 718,
+          "n_non_fsc0143": 23,
+          "frac_non_fsc0143": 0.03203342618384401,
+          "wilson95_lo": 0.021438908775759134,
+          "wilson95_hi": 0.04760874457200289
+        },
+        "helical": {
+          "n": 26,
+          "n_non_fsc0143": 2,
+          "frac_non_fsc0143": 0.07692307692307693,
+          "wilson95_lo": 0.021355088472276205,
+          "wilson95_hi": 0.24141553771629057
+        },
+        "subtomogram avg": {
+          "n": 51,
+          "n_non_fsc0143": 4,
+          "frac_non_fsc0143": 0.0784313725490196,
+          "wilson95_lo": 0.03092219678848919,
+          "wilson95_hi": 0.18499946312595889
+        },
+        "tomography": {
+          "n": 5,
+          "n_non_fsc0143": 5,
+          "frac_non_fsc0143": 1.0,
+          "wilson95_lo": 0.5655175352168252,
+          "wilson95_hi": 1.0
+        }
+      },
+      "non_fsc0143_by_year": {
+        "2022": {
+          "n": 206,
+          "n_non_fsc0143": 13,
+          "frac_non_fsc0143": 0.06310679611650485,
+          "wilson95_lo": 0.03724733599785131,
+          "wilson95_hi": 0.10496221109738277
+        },
+        "2023": {
+          "n": 304,
+          "n_non_fsc0143": 13,
+          "frac_non_fsc0143": 0.04276315789473684,
+          "wilson95_lo": 0.025158709025957997,
+          "wilson95_hi": 0.07177904242250963
+        },
+        "2024": {
+          "n": 267,
+          "n_non_fsc0143": 8,
+          "frac_non_fsc0143": 0.0299625468164794,
+          "wilson95_lo": 0.015259128635740637,
+          "wilson95_hi": 0.05799944450549258
+        },
+        "2025": {
+          "n": 23,
+          "n_non_fsc0143": 0,
+          "frac_non_fsc0143": 0.0,
+          "wilson95_lo": 0.0,
+          "wilson95_hi": 0.14311661845042686
+        }
+      }
+    }
+  },
+  "nyquist": {
+    "n": 1600,
+    "median_ratio": 1.7663367390378883,
+    "frac_sub_nyquist": 0.001875,
+    "n_sub_nyquist": 3,
+    "n_sub_nyquist_pixel_artifact": 2,
+    "n_sub_nyquist_substantive": 1,
+    "frac_sub_nyquist_substantive": 0.000625,
+    "sub_nyquist_entries": [
+      {
+        "emdb_id": "EMD-45648",
+        "resolution": 11.02,
+        "pixel_x": 11.024,
+        "ratio": 0.49981857764876636,
+        "method": "tomography",
+        "resolution_method": "OTHER",
+        "res_eq_pixel": true
+      },
+      {
+        "emdb_id": "EMD-15154",
+        "resolution": 10.0923,
+        "pixel_x": 10.0923,
+        "ratio": 0.5,
+        "method": "tomography",
+        "resolution_method": "nan",
+        "res_eq_pixel": true
+      },
+      {
+        "emdb_id": "EMD-44581",
+        "resolution": 5.1,
+        "pixel_x": 2.62,
+        "ratio": 0.9732824427480915,
+        "method": "singleParticle",
+        "resolution_method": "FSC 0.143 CUT-OFF",
+        "res_eq_pixel": false
+      }
+    ],
+    "frac_within_1p2x_nyquist": 0.043125,
+    "median_pixel": 1.073275
+  }
+}

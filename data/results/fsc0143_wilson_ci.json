@@ -1,0 +1,46 @@
+{
+  "method": "Wilson score interval, 95% confidence",
+  "source": "data/raw/emdb_detail.csv, resolution_method contains '0.143', by deposition-year bucket",
+  "buckets": {
+    "2002-2013": {
+      "n_fsc0143": 2,
+      "n": 75,
+      "frac": 0.02666666666666667,
+      "pct": 2.7,
+      "wilson95_lo": 0.007343689006131395,
+      "wilson95_hi": 0.09211488187759151,
+      "wilson95_lo_pct": 0.7,
+      "wilson95_hi_pct": 9.2
+    },
+    "2014-2017": {
+      "n_fsc0143": 70,
+      "n": 150,
+      "frac": 0.4666666666666667,
+      "pct": 46.7,
+      "wilson95_lo": 0.38866050759928206,
+      "wilson95_hi": 0.5463375086919231,
+      "wilson95_lo_pct": 38.9,
+      "wilson95_hi_pct": 54.6
+    },
+    "2018-2021": {
+      "n_fsc0143": 500,
+      "n": 549,
+      "frac": 0.9107468123861566,
+      "pct": 91.1,
+      "wilson95_lo": 0.8839558145389804,
+      "wilson95_hi": 0.9318296024267815,
+      "wilson95_lo_pct": 88.4,
+      "wilson95_hi_pct": 93.2
+    },
+    "2022-2026": {
+      "n_fsc0143": 791,
+      "n": 826,
+      "frac": 0.9576271186440678,
+      "pct": 95.8,
+      "wilson95_lo": 0.9416405085293128,
+      "wilson95_hi": 0.9693768815567021,
+      "wilson95_lo_pct": 94.2,
+      "wilson95_hi_pct": 96.9
+    }
+  }
+}

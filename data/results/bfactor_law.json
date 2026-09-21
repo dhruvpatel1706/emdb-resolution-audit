@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "framing": "POPULATION regression over heterogeneous deposited metadata; effective B is an aggregate regression coefficient, NOT a per-reconstruction B-factor.",
+    "model": "forward fit 1/res^2 = a + b*ln(n_images); effective B = 2*d, where d is the reverse (ResLog) OLS slope of ln(n_images) on 1/res^2 (Rosenthal-Henderson d = B/2)",
+    "n_boot": 10000,
+    "script": "code/bfactor_law.py",
+    "seed": 20260622
+  },
+  "core_fit": {
+    "_predictive_orientation": "1/res^2 = a + b*ln(N)",
+    "_reslog_orientation": "ln(N) = c + d*(1/res^2), d = B/2",
+    "effective_B_A2": 36.766921191144206,
+    "effective_B_A2_bootstrap_mean": 36.83981016014317,
+    "effective_B_A2_bootstrap_sd": 2.192832308436145,
+    "effective_B_A2_ci95": [
+      32.56983969486882,
+      41.121748450229504
+    ],
+    "intercept_a": -0.10722786315151564,
+    "pearson_r": 0.5531281483540026,
+    "r2": 0.3059507485015275,
+    "reslog_r2": 0.3059507485015275,
+    "reslog_slope_d": 18.383460595572103,
+    "slope_b": 0.016642717888231538,
+    "slope_b_bootstrap_mean": 0.016681174151949047,
+    "slope_b_bootstrap_sd": 0.0009230838471745454,
+    "slope_b_ci95": [
+      0.014799234527924277,
+      0.018433003117385407
+    ],
+    "slope_positive_and_significant": true
+  },
+  "counts": {
+    "n_fit_all_methods": 1485,
+    "n_fit_singleParticle": 1403,
+    "n_pointgroup_subset": 602,
+    "n_singleParticle_missing_nimages": 4,
+    "n_singleParticle_total": 1407,
+    "reconciliation_note": "1485 = all methods with usable n_images and resolution; 1403 = single-particle-only subset used for the fit."
+  },
+  "symmetry_control": {
+    "n": 602,
+    "r2_increase": 0.027225606274205894,
+    "r2_lnN_on_subset": 0.2980348032259711,
+    "r2_lnN_times_order_on_subset": 0.325260409500177,
+    "slope_b_lnN_subset": 0.016340765686136526,
+    "slope_b_sym_subset": 0.016864726948233665,
+    "sym_slope_positive": true
+  }
+}
