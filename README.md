@@ -23,18 +23,22 @@ Python 3 with `requests`, `numpy`, `pandas`, `scipy`, `matplotlib`. CPU-only; so
 
 ## Reproduce
 
-The cached CSVs are included, so the analysis and figures can be reproduced offline. To re-pull the source tables (network required), run the fetch steps first.
+The cached tables are included, so the analysis and figures can be reproduced offline. To re-pull the source tables (network required), run the two fetch steps first; counts will then reflect archive growth since the June 2026 snapshot.
 
 ```
-python code/build_table.py    # -> data/raw/emdb_census.csv (EBI Search census)  [network]
-python code/detail_fetch.py   # -> data/raw/emdb_detail.csv (native API sample)   [network]
-python code/analyze.py        # -> data/results/emdb.json (all findings)
-python code/figures.py        # -> paper/figures/fig_emdb.png
-python3 code/check_paper_numbers.py   # guard on paper/acta_d_revision/ (0 failures expected)
-cd paper && pdflatex main && bibtex main && pdflatex main && pdflatex main
+pip install -r requirements.txt
+python code/build_table.py           # -> data/raw/emdb_census.csv (EBI Search census)   [network, optional]
+python code/detail_fetch.py          # -> data/raw/emdb_detail.csv (native API sample)    [network, optional]
+python code/analyze.py               # -> data/results/emdb.json (census, substantiation, Nyquist findings)
+python code/bfactor_law.py           # -> data/results/bfactor_law.json (Rosenthal-Henderson fit)
+python code/nyquist_sensitivity.py   # -> data/results/nyquist_sensitivity.json (tolerance-band sweep)
+mkdir -p paper/figures
+python code/figures.py               # -> paper/figures/fig_emdb.png
+python code/fig_bfactor.py           # -> paper/figures/fig_bfactor.png
+python code/fig_residual.py          # -> paper/figures/fig_residual.png
 ```
 
-Counts reported in the paper reflect the cached snapshot; re-pulling later will reflect archive growth since the snapshot date.
+`code/check_paper_numbers.py` re-derives every statistic quoted in the manuscript from `data/results/` and compares it with the manuscript source (path given by the `EMDB_TEX` environment variable); the manuscript source is not included in this repository while the paper is under review, so that script is provided for the record.
 
 ## Data sources
 
@@ -51,17 +55,8 @@ Both are public, require no authentication, and the code only parses and tabulat
 
 ## Citation
 
-If you use this code or the parsed tables, please cite the paper. A Zenodo DOI and public repository URL have not yet been assigned. Replace `[Zenodo DOI: 10.5281/zenodo.XXXXXXX]` and `https://github.com/PLACEHOLDER/emdb-resolution-audit` only after the corresponding deposits exist; do not describe the materials as publicly archived before then.
-
-## 1 September 2026: live Acta D source
-The manuscript source that matches the staged `emdb_ActaD.pdf` is `paper/acta_d/emdb_ActaD_main.tex`
-(mirrored from `SUBMISSION_READY_2026-07-27/_SUBMIT_PDFS/ACTA_D_SOURCE/`); `paper/main.tex` and
-`paper/database_oup/` are older drafts. Per the Acta D Notes for Authors (read 1 Sep 2026): templates
-are encouraged, not required; figures must be separate files at 600 d.p.i. or better, so the three
-figure scripts now save at 600 d.p.i.; the abstract was shortened toward the requested 250 words and a
-synopsis + keywords block added (`paper/acta_d/synopsis_keywords_plaintext.txt` for the form). The
-scientific hold in `EMDB_ACTAD_HANDOFF_2026-07-29.md` (sample versus census scope) is unchanged.
+If you use this code or the parsed tables, please cite the paper (under review; the reference will be added here when it is published). The repository URL is https://github.com/dhruvpatel1706/emdb-resolution-audit; a citable archive DOI for the same package has not yet been minted.
 
 ## Manuscript
 
-The manuscript is under review (Acta Crystallographica Section D, submitted 1 September 2026). This repository holds the code and the cached data it reads; the paper itself is not included while the review is open.
+The manuscript is under review at Acta Crystallographica Section D (submitted 30 July 2026). This repository holds the code and the cached data it reads; the paper itself is not included while the review is open.

@@ -1,7 +1,7 @@
 # EMDB resolution-reporting audit: results and status
 
 **Paper:** "Resolution Metadata in the EMDB Cryo-EM Archive: An Indexed Census of 46,900 Entries and a Stratified 1,600-Entry Criterion Audit"
-**Status:** **SCIENTIFIC HOLD — not submission-ready.** The shipped tables reproduce the manuscript's reported numbers, but numerical reproducibility does not resolve the central scope/novelty problem. Only the historical, method and fitted-model summaries use the 46,900-entry indexed census. Criterion provenance, the 34/800 post-mandate exception analysis, Rosenthal-Henderson fit and Nyquist screen use a stratified 1,600-entry sample drawn from resolution-carrying entries; the smallest modality slices are sparse and potentially clustered by study. Until a targeted study-level sample or full-frame criterion extraction supports the modality claim, the manuscript is an incremental data note rather than a 46,900-entry criterion-validation study.
+**Status:** manuscript under review at Acta Crystallographica Section D (submitted 30 July 2026). The two evidence layers are kept apart throughout: only the historical, method and fitted-model summaries use the 46,900-entry indexed census; criterion provenance, the post-mandate exception analysis, the Rosenthal-Henderson fit and the Nyquist screen use a stratified 1,600-entry sample drawn from resolution-carrying entries, whose smallest modality slices are sparse and potentially clustered by study. The paper states this scope in its abstract, methods and limitations.
 
 **Revision (this pass, reviewer fixes).** Input CSV checksums unchanged; only the derived `emdb.json` was regenerated (new fields added) and re-checksummed; it is byte-stable across re-runs.
 
@@ -16,7 +16,7 @@ Framing surgery (no new experiments, all numbers re-run over the same frozen CSV
 8. *Discussion* gained an actionable downstream sentence (consumers can flag tomography/subtomogram entries for non-standard criteria) and the self-reported caveat is now attributed to the audit's read of the metadata field, not the archive (EMDB's validation layer provides a recomputed FSC our audit does not ingest). Fixed "sampling error of a percent or two" to acknowledge the small subgroup slices have much wider intervals.
 9. *Figure panel D* annotated "already 91% pre-mandate" pointing at the 2018-2021 bar, so the dashed mandate line clearly falls on an already-high plateau.
 
-Reproducibility placeholders: the Zenodo DOI and GitHub URL CANNOT be minted/pushed offline (no network, no paid services); README and paper Reproducibility section now state the DOI/URL are "assigned at submission" rather than leaving raw `<ZENODO_DOI>` template tokens. This is the one mechanical step that must happen at submission time.
+Reproducibility: this repository (https://github.com/dhruvpatel1706/emdb-resolution-audit) is the public copy of the code and cached tables; a citable archive DOI has not yet been minted.
 
 Compiles clean: 7 pages (was 6; added downstream-implications paragraph, dashboard sentences, CIs, robustness clause, wider Table 1), 0 undefined refs/citations, 0 "!" lines, 0 bibtex errors, 0 overfull >5pt, 0 em-dashes (U+2014 or ---); the dashes in the PDF are all en-dashes in numeric ranges (e.g. "15-20A", "2018-2021"), standard typography matching the body.
 
@@ -45,15 +45,14 @@ A CPU-only, public-API metadata study with two evidence layers: an indexed censu
 - **No causal overclaim** on the mandate; the year-bucket confound was caught and the framing corrected to "ratified, not caused."
 - **FSC 0.143 attributed to Rosenthal & Henderson 2003** only; the half-bit criterion (van Heel & Schatz 2005) is not bundled in and is not mentioned.
 - Mandate dated "February 2022" to match the month-granularity code cutoff (`deposition >= 20220201`); the precise announced date is 25 Feb 2022, which does not change any finding.
-- **OUTSTANDING (submission-time, cannot do offline):** mint Zenodo DOI + push public repo, then insert the concrete DOI/URL into README and the paper's Reproducibility section (currently stated as "assigned at submission"). No raw `<ZENODO_DOI>` template tokens remain.
+- **Archive DOI:** not yet minted; the repository above is the public copy of the package.
 
 ## Reproduce
 ```
-.venv/bin/python code/build_table.py    # -> data/raw/emdb_census.csv (EBI Search census, 46,900 rows)
-.venv/bin/python code/detail_fetch.py   # -> data/raw/emdb_detail.csv (native API sample, 1,600 rows)
-.venv/bin/python code/analyze.py        # -> data/results/emdb.json (all 5 findings)
-.venv/bin/python code/nyquist_sensitivity.py  # -> data/results/nyquist_sensitivity.json (ratio spread + 2/5/10% bands; borderline EMD-44581 absorbed only at >=5%)
-.venv/bin/python code/figures.py        # -> paper/figures/fig_emdb.png
-cd paper && pdflatex main && bibtex main && pdflatex main && pdflatex main
+python code/build_table.py    # -> data/raw/emdb_census.csv (EBI Search census, 46,900 rows)
+python code/detail_fetch.py   # -> data/raw/emdb_detail.csv (native API sample, 1,600 rows)
+python code/analyze.py        # -> data/results/emdb.json (all 5 findings)
+python code/nyquist_sensitivity.py  # -> data/results/nyquist_sensitivity.json (ratio spread + 2/5/10% bands; borderline EMD-44581 absorbed only at >=5%)
+python code/figures.py        # -> paper/figures/fig_emdb.png
 ```
 Deps: requests, numpy, pandas, scipy, matplotlib. CPU-only. Sources: EBI Search REST API + EMDB native entry JSON API (public, no auth).
