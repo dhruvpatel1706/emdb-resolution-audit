@@ -45,4 +45,6 @@ stated.
 ## Earlier version
 
 The September 2026 census of resolution metadata and criterion audit, a different analysis, is kept unchanged in
-`v1_census_2026-09/` and at the tag `v1-actad-2026-09-21`. Its README describes that version as it was then.
+`v1_census_2026-09/` and at the tag `v1-actad-2026-09-21`. Its README describes that version as it was then. Its
+`CHECKSUMS.sha256` also lists `LICENSE`, which stays at the repository root and is unchanged, so a check run inside the
+folder reports that one file as missing.
