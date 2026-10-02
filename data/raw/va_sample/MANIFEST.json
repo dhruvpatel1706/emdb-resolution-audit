@@ -1,0 +1,422 @@
+[
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/18652",
+  "file": "data/raw/va_sample/EMD-18652_va.json",
+  "bytes": 890812,
+  "sha256": "85370125b253a2ec916be1043a4aa67096ecb3a09358122f9facb3e7f4ce18a6",
+  "retrieved_utc": "2026-10-01T14:23:49+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/18754",
+  "file": "data/raw/va_sample/EMD-18754_va.json",
+  "bytes": 1522137,
+  "sha256": "c4edf7fc81b164ca6256ad2217b72964fc941cf0d8739e7dfc062433729a0fa9",
+  "retrieved_utc": "2026-10-01T14:23:54+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/19020",
+  "file": "data/raw/va_sample/EMD-19020_va.json",
+  "bytes": 743450,
+  "sha256": "840c457a8c957cb5d5fdd957f7dcf0559cb0a37a2a7045deaa0474cd03fd0323",
+  "retrieved_utc": "2026-10-01T14:23:56+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/19270",
+  "file": "data/raw/va_sample/EMD-19270_va.json",
+  "bytes": 770274,
+  "sha256": "19ad8d6ea4b0951c8aa72887c2d26013e4698412396597a32ebf87a18cdf26fe",
+  "retrieved_utc": "2026-10-01T14:24:00+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/19280",
+  "file": "data/raw/va_sample/EMD-19280_va.json",
+  "bytes": 733216,
+  "sha256": "3eebd9d04b4641be89271be5b608a25bec8a06461b0491a150635081840010b2",
+  "retrieved_utc": "2026-10-01T14:24:02+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/19281",
+  "file": "data/raw/va_sample/EMD-19281_va.json",
+  "bytes": 732556,
+  "sha256": "abc3dd18010b2574f2a56a8e97813a30f9efea6feca85b08444115a59b3e6698",
+  "retrieved_utc": "2026-10-01T14:24:05+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/19285",
+  "file": "data/raw/va_sample/EMD-19285_va.json",
+  "bytes": 901560,
+  "sha256": "dfd695efc19d16a8752d85cb992a82d8d4feb911b683739354500584e1f4b15e",
+  "retrieved_utc": "2026-10-01T14:24:08+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/19442",
+  "file": "data/raw/va_sample/EMD-19442_va.json",
+  "bytes": 4027279,
+  "sha256": "f832db3df986d17bd88cbf49e5af18e24c353b3be49604a74fc1cc809680b135",
+  "retrieved_utc": "2026-10-01T14:24:20+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/19526",
+  "file": "data/raw/va_sample/EMD-19526_va.json",
+  "bytes": 218569,
+  "sha256": "cd95c5cadd32cfce34f5c196ee52fa7c213723e99ad744a137e470ed523d2cbc",
+  "retrieved_utc": "2026-10-01T14:24:22+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/35186",
+  "file": "data/raw/va_sample/EMD-35186_va.json",
+  "bytes": 1284039,
+  "sha256": "69be41f07daa72d8b615ad584482182aab18c1cdc934948ad6467a6978c099ad",
+  "retrieved_utc": "2026-10-01T14:24:27+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/37441",
+  "file": "data/raw/va_sample/EMD-37441_va.json",
+  "bytes": 814731,
+  "sha256": "13883c5675f02c6979ac03a492593df4ec5137b200c6e475eeacbaaf1c965810",
+  "retrieved_utc": "2026-10-01T14:24:29+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/37905",
+  "file": "data/raw/va_sample/EMD-37905_va.json",
+  "bytes": 1541885,
+  "sha256": "440874e3801ac337be54b60fc5dba9dac6186f7c80519e5fa9152fee44e759bc",
+  "retrieved_utc": "2026-10-01T14:24:32+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/38623",
+  "file": "data/raw/va_sample/EMD-38623_va.json",
+  "bytes": 481728,
+  "sha256": "ff1f4f464d13049a5ce9c5cefa9f4d88ef80a1f40abdf4a71883c6254e6057a1",
+  "retrieved_utc": "2026-10-01T14:24:34+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/39763",
+  "file": "data/raw/va_sample/EMD-39763_va.json",
+  "bytes": 3454897,
+  "sha256": "d1f1154ae44e6f8fde07ca7e4f607ad96a40e5de97ba58aef4bad7dcf6316510",
+  "retrieved_utc": "2026-10-01T14:24:52+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/41151",
+  "file": "data/raw/va_sample/EMD-41151_va.json",
+  "bytes": 664688,
+  "sha256": "733bb27a81b307451b681880f3ff4a3596eee31c86a0aea7cc53fcd6d0046198",
+  "retrieved_utc": "2026-10-01T14:24:54+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/42363",
+  "file": "data/raw/va_sample/EMD-42363_va.json",
+  "bytes": 1794559,
+  "sha256": "a77b44eb8fce411600b88e8c0097bb4228684a684ae4538322d4fcd40915b3f4",
+  "retrieved_utc": "2026-10-01T14:25:14+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/42932",
+  "file": "data/raw/va_sample/EMD-42932_va.json",
+  "bytes": 542058,
+  "sha256": "e7314d03055b99f6bd938d79d00f1f978ad6e3b99b1dba1aa4ff3aa94cddeee1",
+  "retrieved_utc": "2026-10-01T14:25:16+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/43270",
+  "file": "data/raw/va_sample/EMD-43270_va.json",
+  "bytes": 1086096,
+  "sha256": "837cae7b5bde66bb4eefba275a0b5f48617898f45163300f17be49073d9f42eb",
+  "retrieved_utc": "2026-10-01T14:25:22+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/44166",
+  "file": "data/raw/va_sample/EMD-44166_va.json",
+  "bytes": 2242650,
+  "sha256": "48a8c9eb6e41afb4924db243bcbf13a7301ca166b6c45ab320a583fdfc53d173",
+  "retrieved_utc": "2026-10-01T14:25:25+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/44399",
+  "file": "data/raw/va_sample/EMD-44399_va.json",
+  "bytes": 345055,
+  "sha256": "e1e00e6269c074c927efcb02e6efa9de2f6935042537bf5b2ea873313b47d07e",
+  "retrieved_utc": "2026-10-01T14:25:28+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/44874",
+  "file": "data/raw/va_sample/EMD-44874_va.json",
+  "bytes": 2517029,
+  "sha256": "5bdfa2d151c2edf043c52784cf3fe15513a3b388c55a8155099dc495b54d599e",
+  "retrieved_utc": "2026-10-01T14:25:33+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/44934",
+  "file": "data/raw/va_sample/EMD-44934_va.json",
+  "bytes": 1335968,
+  "sha256": "ccc90e063277c6e922f089b8ed1fb02a44f385c6e057f9f8c5ba1003146bef0f",
+  "retrieved_utc": "2026-10-01T14:25:40+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/44984",
+  "file": "data/raw/va_sample/EMD-44984_va.json",
+  "bytes": 92719,
+  "sha256": "a07d2da5229b63e48e7e31f538d05b8c415d7513ae53219fcb24c48437eb802e",
+  "retrieved_utc": "2026-10-01T14:25:42+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/45104",
+  "file": "data/raw/va_sample/EMD-45104_va.json",
+  "bytes": 200790,
+  "sha256": "1e7873376edef6be4f73135ac200a0ba6de08ea44838b282ab8124c61f2fbdcc",
+  "retrieved_utc": "2026-10-01T14:25:44+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/45632",
+  "file": "data/raw/va_sample/EMD-45632_va.json",
+  "bytes": 1049389,
+  "sha256": "ac507a71237eff34c2f425ca37a5178c59df346cfd192f31ebfb72287fdf5db9",
+  "retrieved_utc": "2026-10-01T14:25:47+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/46064",
+  "file": "data/raw/va_sample/EMD-46064_va.json",
+  "bytes": 1644225,
+  "sha256": "84928d7c94e0e9e0743511d9e345043101b94a152be052881f6064b61ba5f5b2",
+  "retrieved_utc": "2026-10-01T14:25:50+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/47208",
+  "file": "data/raw/va_sample/EMD-47208_va.json",
+  "bytes": 735985,
+  "sha256": "b5fcaef6afa2e4d7772fbf9a05a40bfdfd2e7ce3976710b1a533df740adc596b",
+  "retrieved_utc": "2026-10-01T14:25:53+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/47502",
+  "file": "data/raw/va_sample/EMD-47502_va.json",
+  "bytes": 266276,
+  "sha256": "83dfd7518be0a64b9b3d50631d0300604fc55729934f43b2521450a597c067f0",
+  "retrieved_utc": "2026-10-01T14:25:55+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/47985",
+  "file": "data/raw/va_sample/EMD-47985_va.json",
+  "bytes": 275993,
+  "sha256": "b899bcefce36efe90e18822b278d04bcdf95e1f117375c039f005753fc142107",
+  "retrieved_utc": "2026-10-01T14:25:57+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/48223",
+  "file": "data/raw/va_sample/EMD-48223_va.json",
+  "bytes": 971705,
+  "sha256": "867763a108e19b96d6a858b337cf918e11f85ffb7dca2b8369c8bb3e9d3625c5",
+  "retrieved_utc": "2026-10-01T14:25:59+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/48601",
+  "file": "data/raw/va_sample/EMD-48601_va.json",
+  "bytes": 1203569,
+  "sha256": "a7c396fdc4609bc2146585617dee5650c4863fbff236617e5bf0463433e08c9d",
+  "retrieved_utc": "2026-10-01T14:26:02+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/48846",
+  "file": "data/raw/va_sample/EMD-48846_va.json",
+  "bytes": 968424,
+  "sha256": "5f3f8ecc15c2a2f4859d47a5bf63706469a8943958495d73d4e6e6ae3dbb160a",
+  "retrieved_utc": "2026-10-01T14:26:15+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/49362",
+  "file": "data/raw/va_sample/EMD-49362_va.json",
+  "bytes": 572971,
+  "sha256": "309000b342f1888eac498d8c7da650602d9eb2e3b30833f428844a8f5b96f0af",
+  "retrieved_utc": "2026-10-01T14:26:17+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/51150",
+  "file": "data/raw/va_sample/EMD-51150_va.json",
+  "bytes": 1640722,
+  "sha256": "8ead4f2fc48bf018821d7d253b1a69a3c9551d83e5a62be43adb4c7752de4fb7",
+  "retrieved_utc": "2026-10-01T14:26:20+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/51508",
+  "file": "data/raw/va_sample/EMD-51508_va.json",
+  "bytes": 172977,
+  "sha256": "59cb764850861a291741ab85d61fc76e60c36d7338ecd7306e0af979a1710b26",
+  "retrieved_utc": "2026-10-01T14:26:22+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/52444",
+  "file": "data/raw/va_sample/EMD-52444_va.json",
+  "bytes": 952015,
+  "sha256": "1f69f0c483d2f13aea031d03160e58d10b9084078e8efa2d65f13174d2cd2ef1",
+  "retrieved_utc": "2026-10-01T14:26:29+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/53653",
+  "file": "data/raw/va_sample/EMD-53653_va.json",
+  "bytes": 216783,
+  "sha256": "7eaa298ca0cfb4fecb108557c4a250ea0ec3d9eae68d71d518472c7fc4e5693b",
+  "retrieved_utc": "2026-10-01T14:26:30+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/53663",
+  "file": "data/raw/va_sample/EMD-53663_va.json",
+  "bytes": 216967,
+  "sha256": "94fc23293206bb2ee9496eea62e74bf782f66b05f0f5301457536d2371f221c6",
+  "retrieved_utc": "2026-10-01T14:26:33+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/54701",
+  "file": "data/raw/va_sample/EMD-54701_va.json",
+  "bytes": 262349,
+  "sha256": "f312d5ee413e4441aaacea0ef709acab3a556928833ce40fd049baea418811f0",
+  "retrieved_utc": "2026-10-01T14:26:35+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/55205",
+  "file": "data/raw/va_sample/EMD-55205_va.json",
+  "bytes": 108734,
+  "sha256": "0593be2586ec27765878a1db32d0add8b244815f1d91d591445e21f1c70361cb",
+  "retrieved_utc": "2026-10-01T14:26:37+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/55334",
+  "file": "data/raw/va_sample/EMD-55334_va.json",
+  "bytes": 259662,
+  "sha256": "7b05261e02009dd343d3f4092a92a793ce38f6fd93d29cc26248d4fbff9bd269",
+  "retrieved_utc": "2026-10-01T14:26:39+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/55456",
+  "file": "data/raw/va_sample/EMD-55456_va.json",
+  "bytes": 130036,
+  "sha256": "a9f62ae96edd0807afb98c9090c02e38b35579fd88df130fda6cdaa3a5957dc3",
+  "retrieved_utc": "2026-10-01T14:26:41+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/55571",
+  "file": "data/raw/va_sample/EMD-55571_va.json",
+  "bytes": 328255,
+  "sha256": "ebc71522949a2038328bec96cd656de1d5532474d43249eedf7ea855b7ae6f99",
+  "retrieved_utc": "2026-10-01T14:26:45+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/57779",
+  "file": "data/raw/va_sample/EMD-57779_va.json",
+  "bytes": 1080313,
+  "sha256": "2106ff0add70669f5b348526749b8f4093088e1824c6f7dda2d117060d0bd39a",
+  "retrieved_utc": "2026-10-01T14:26:48+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/60409",
+  "file": "data/raw/va_sample/EMD-60409_va.json",
+  "bytes": 938802,
+  "sha256": "3509d548a7dc651220c7d3b2ba574ada4dd8a4f8bebd0e47ed84bc9ac475c38e",
+  "retrieved_utc": "2026-10-01T14:26:53+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/61677",
+  "file": "data/raw/va_sample/EMD-61677_va.json",
+  "bytes": 121507,
+  "sha256": "2ed37194955bfbd73a9ca75034a3407ef094f636f5b0a882c54950b7b4c1ac9d",
+  "retrieved_utc": "2026-10-01T14:26:55+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/61835",
+  "file": "data/raw/va_sample/EMD-61835_va.json",
+  "bytes": 462750,
+  "sha256": "948677598b5138aab4485232cb8c370c2d5e6103b6dfbb35fb431a61b5065805",
+  "retrieved_utc": "2026-10-01T14:26:58+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/62418",
+  "file": "data/raw/va_sample/EMD-62418_va.json",
+  "bytes": 558243,
+  "sha256": "8fd9648e726fe6ca6f6e7c6c691190e3c89d6ba0dd5c04a7d4dd905bea6604a2",
+  "retrieved_utc": "2026-10-01T14:27:00+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/63377",
+  "file": "data/raw/va_sample/EMD-63377_va.json",
+  "bytes": 223334,
+  "sha256": "043ff9e9dcf1b120f8a8ec4f4f5ccb2980aa593e45b60b377999028239d874b6",
+  "retrieved_utc": "2026-10-01T14:27:02+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/65036",
+  "file": "data/raw/va_sample/EMD-65036_va.json",
+  "bytes": 2284796,
+  "sha256": "d44bf162db5de9eeabdf8c430371d4283fa036d782d38dee79cb7268fd8c306c",
+  "retrieved_utc": "2026-10-01T14:27:05+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/66675",
+  "file": "data/raw/va_sample/EMD-66675_va.json",
+  "bytes": 1250918,
+  "sha256": "05bbd81eb0dc18339d00b5d80acdaa668bf92cd21c2c3c718d449b2430e8f765",
+  "retrieved_utc": "2026-10-01T14:27:07+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/70328",
+  "file": "data/raw/va_sample/EMD-70328_va.json",
+  "bytes": 265754,
+  "sha256": "852725abb0f27d4eae1027e29d377396ec5506f9cea5d46f278106f968f5d6cf",
+  "retrieved_utc": "2026-10-01T14:27:09+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/71348",
+  "file": "data/raw/va_sample/EMD-71348_va.json",
+  "bytes": 13751774,
+  "sha256": "f395ea95f69110b60affb72cf7ae36c10ccc32e52079856102862a5adb19ef44",
+  "retrieved_utc": "2026-10-01T14:28:05+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/72176",
+  "file": "data/raw/va_sample/EMD-72176_va.json",
+  "bytes": 307003,
+  "sha256": "1bf3dbe95b862c9847a51974e8b7f29bc0219a140c382e4967354c41741b76be",
+  "retrieved_utc": "2026-10-01T14:28:07+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/72497",
+  "file": "data/raw/va_sample/EMD-72497_va.json",
+  "bytes": 908383,
+  "sha256": "25313a73281ccdbdd174308e873e73955cb7f18a9222afab6dfcbf955efcc0a1",
+  "retrieved_utc": "2026-10-01T14:28:09+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/72849",
+  "file": "data/raw/va_sample/EMD-72849_va.json",
+  "bytes": 8010811,
+  "sha256": "7884785884a47566264aa69c26ceabee1cc1c865c490c554ac5dccbe409abd2b",
+  "retrieved_utc": "2026-10-01T14:28:28+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/73587",
+  "file": "data/raw/va_sample/EMD-73587_va.json",
+  "bytes": 306334,
+  "sha256": "6613ce74323eb656fafb45d666d494fd3ed0b9249e7bc9c5ff21dfdc2830ce80",
+  "retrieved_utc": "2026-10-01T14:28:30+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/75213",
+  "file": "data/raw/va_sample/EMD-75213_va.json",
+  "bytes": 3678463,
+  "sha256": "9654d0d6a6f669716262f1741c3510c4712ef81d46463028ffeee432ea47cb77",
+  "retrieved_utc": "2026-10-01T14:28:33+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/76094",
+  "file": "data/raw/va_sample/EMD-76094_va.json",
+  "bytes": 275602,
+  "sha256": "29d3ca06ca0a2aab0ec32fb91b8b4cb74bb5cc75b2afb830ebb2e443f06ff041",
+  "retrieved_utc": "2026-10-01T14:28:35+00:00"
+ },
+ {
+  "url": "https://www.ebi.ac.uk/emdb/api/analysis/77480",
+  "file": "data/raw/va_sample/EMD-77480_va.json",
+  "bytes": 279253,
+  "sha256": "a12dc888b5a8a62423b04404cc8d00fbf299a5d38a0ad82b9f12b9404777bdfc",
+  "retrieved_utc": "2026-10-01T14:28:36+00:00"
+ }
+]

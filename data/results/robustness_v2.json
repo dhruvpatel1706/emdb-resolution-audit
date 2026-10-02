@@ -1,0 +1,210 @@
+{
+ "n_entries": 20590,
+ "n_tail": 700,
+ "tail_by_band_and_method": {
+  "0-3 A | helical": {
+   "tail": 1,
+   "n": 290,
+   "pct": 0.34,
+   "ci95": [
+    0.06,
+    1.93
+   ]
+  },
+  "0-3 A | singleParticle": {
+   "tail": 68,
+   "n": 6227,
+   "pct": 1.09,
+   "ci95": [
+    0.86,
+    1.38
+   ]
+  },
+  "0-3 A | subtomogramAveraging": {
+   "tail": 0,
+   "n": 9,
+   "pct": 0.0,
+   "ci95": [
+    0.0,
+    29.92
+   ]
+  },
+  "10-up A | helical": {
+   "tail": 1,
+   "n": 14,
+   "pct": 7.14,
+   "ci95": [
+    1.27,
+    31.47
+   ]
+  },
+  "10-up A | singleParticle": {
+   "tail": 45,
+   "n": 236,
+   "pct": 19.07,
+   "ci95": [
+    14.57,
+    24.56
+   ]
+  },
+  "10-up A | subtomogramAveraging": {
+   "tail": 88,
+   "n": 471,
+   "pct": 18.68,
+   "ci95": [
+    15.42,
+    22.45
+   ]
+  },
+  "3-4 A | helical": {
+   "tail": 7,
+   "n": 448,
+   "pct": 1.56,
+   "ci95": [
+    0.76,
+    3.19
+   ]
+  },
+  "3-4 A | singleParticle": {
+   "tail": 114,
+   "n": 9557,
+   "pct": 1.19,
+   "ci95": [
+    0.99,
+    1.43
+   ]
+  },
+  "3-4 A | subtomogramAveraging": {
+   "tail": 2,
+   "n": 22,
+   "pct": 9.09,
+   "ci95": [
+    2.53,
+    27.82
+   ]
+  },
+  "4-6 A | helical": {
+   "tail": 6,
+   "n": 86,
+   "pct": 6.98,
+   "ci95": [
+    3.24,
+    14.4
+   ]
+  },
+  "4-6 A | singleParticle": {
+   "tail": 234,
+   "n": 2016,
+   "pct": 11.61,
+   "ci95": [
+    10.28,
+    13.08
+   ]
+  },
+  "4-6 A | subtomogramAveraging": {
+   "tail": 15,
+   "n": 109,
+   "pct": 13.76,
+   "ci95": [
+    8.52,
+    21.47
+   ]
+  },
+  "6-10 A | helical": {
+   "tail": 2,
+   "n": 30,
+   "pct": 6.67,
+   "ci95": [
+    1.85,
+    21.32
+   ]
+  },
+  "6-10 A | singleParticle": {
+   "tail": 88,
+   "n": 772,
+   "pct": 11.4,
+   "ci95": [
+    9.35,
+    13.83
+   ]
+  },
+  "6-10 A | subtomogramAveraging": {
+   "tail": 29,
+   "n": 303,
+   "pct": 9.57,
+   "ci95": [
+    6.75,
+    13.41
+   ]
+  }
+ },
+ "n_studies": 6272,
+ "n_entries_with_citation": 20549,
+ "n_studies_with_tail_entry": 352,
+ "largest_tail_contributors": [
+  {
+   "study": "xref_PUBMED:40080582",
+   "tail_entries": 37,
+   "entries": 80
+  },
+  {
+   "study": "title:visual proteomics of translational control in a minimal bacterium",
+   "tail_entries": 30,
+   "entries": 135
+  },
+  {
+   "study": "xref_PUBMED:41162712",
+   "tail_entries": 29,
+   "entries": 99
+  },
+  {
+   "study": "xref_PUBMED:39743588",
+   "tail_entries": 21,
+   "entries": 65
+  },
+  {
+   "study": "xref_PUBMED:39143239",
+   "tail_entries": 13,
+   "entries": 22
+  },
+  {
+   "study": "xref_PUBMED:39644492",
+   "tail_entries": 10,
+   "entries": 10
+  },
+  {
+   "study": "title:augmenting the bacterial ribosome assembly structurome using anti sense oligonucleotide analogs",
+   "tail_entries": 9,
+   "entries": 42
+  },
+  {
+   "study": "title:structures of native doublet microtubules from trichomonas vaginalis reveal parasite specific proteins as potential drug targets",
+   "tail_entries": 9,
+   "entries": 19
+  },
+  {
+   "study": "xref_PUBMED:40512792",
+   "tail_entries": 9,
+   "entries": 21
+  },
+  {
+   "study": "xref_PUBMED:41042876",
+   "tail_entries": 8,
+   "entries": 17
+  }
+ ],
+ "share_of_tail_from_top10_studies": 25.0,
+ "tail_pct_entry_level": 3.4,
+ "tail_pct_study_bootstrap_ci95": [
+  2.8,
+  4.04
+ ],
+ "tail_pct_one_entry_per_study_mean": 2.25,
+ "unrounded": {
+  "tail_pct_study_bootstrap_ci95": [
+   2.8036111536804214,
+   4.040327661049717
+  ],
+  "tail_pct_one_entry_per_study_mean": 2.250103824132969
+ }
+}

@@ -1,3 +1,6 @@
 __pycache__/
 .venv/
 .DS_Store
+data/raw/va_sample/*_va.json
+paper/main.*
+paper/build.log

@@ -1,0 +1,805 @@
+{
+ "input": "emdb_index_2026-10-01.csv",
+ "index_rows": 82910,
+ "released_current": 62711,
+ "not_released_or_withdrawn_or_obsolete": 20199,
+ "released_by_method": {
+  "singleParticle": 53320,
+  "subtomogramAveraging": 3499,
+  "tomography": 2953,
+  "helical": 2744,
+  "electronCrystallography": 195
+ },
+ "released_by_year": {
+  "2002": 17,
+  "2003": 48,
+  "2004": 36,
+  "2005": 81,
+  "2006": 129,
+  "2007": 145,
+  "2008": 152,
+  "2009": 114,
+  "2010": 255,
+  "2011": 240,
+  "2012": 442,
+  "2013": 521,
+  "2014": 695,
+  "2015": 659,
+  "2016": 1093,
+  "2017": 1137,
+  "2018": 2024,
+  "2019": 2452,
+  "2020": 3374,
+  "2021": 4435,
+  "2022": 6134,
+  "2023": 7762,
+  "2024": 9319,
+  "2025": 11657,
+  "2026": 9790
+ },
+ "released_on_or_before_2026-06-30": 58898,
+ "pool_spa_helical_sta": 59563,
+ "pool_with_halfmaps_listed": 42619,
+ "pool_criterion": {
+  "FSC 0.143 CUT-OFF": 53519,
+  "FSC 0.5 CUT-OFF": 3172,
+  "OTHER": 2417,
+  "(none)": 236,
+  "FSC 0.33 CUT-OFF": 108,
+  "DIFFRACTION PATTERN/LAYERLINES": 47,
+  "FSC 3 SIGMA CUT-OFF": 40,
+  "FSC 1/2 BIT CUT-OFF": 19,
+  "FSC 0.5 CUT-OFF,FSC 0.143 CUT-OFF": 3,
+  "OTHER,FSC 0.143 CUT-OFF": 1,
+  "OTHER,FSC 0.5 CUT-OFF": 1
+ },
+ "compared_0143": {
+  "n": 20987,
+  "excluded_recalculation_finer_than_halfmap_nyquist": 1,
+  "excluded_ids": [
+   "EMD-43843"
+  ],
+  "stated_finer_than_map_nyquist": 7,
+  "by_method": {
+   "singleParticle": 19167,
+   "subtomogramAveraging": 945,
+   "helical": 875
+  },
+  "by_year": {
+   "2016": 8,
+   "2017": 14,
+   "2018": 73,
+   "2019": 91,
+   "2020": 79,
+   "2021": 89,
+   "2022": 141,
+   "2023": 294,
+   "2024": 5021,
+   "2025": 9574,
+   "2026": 5603
+  },
+  "deposited_after_policy": 20577
+ },
+ "stated_vs_unmasked": {
+  "n": 20987,
+  "median": 1.2265,
+  "median_ci95": [
+   1.2238,
+   1.2289
+  ],
+  "p5_p25_p75_p95": [
+   1.0436,
+   1.1508,
+   1.3673,
+   2.0948
+  ],
+  "coarser_by_more_than_10pct": {
+   "k": 18434,
+   "pct": 87.84,
+   "ci95": [
+    87.39,
+    88.27
+   ]
+  },
+  "finer_by_more_than_10pct": {
+   "k": 83,
+   "pct": 0.4,
+   "ci95": [
+    0.32,
+    0.49
+   ]
+  },
+  "coarser_by_more_than_25pct": {
+   "k": 9151,
+   "pct": 43.6,
+   "ci95": [
+    42.93,
+    44.28
+   ]
+  },
+  "finer_by_more_than_25pct": {
+   "k": 41,
+   "pct": 0.2,
+   "ci95": [
+    0.14,
+    0.26
+   ]
+  },
+  "coarser_by_more_than_50pct": {
+   "k": 3531,
+   "pct": 16.82,
+   "ci95": [
+    16.32,
+    17.34
+   ]
+  },
+  "finer_by_more_than_50pct": {
+   "k": 16,
+   "pct": 0.08,
+   "ci95": [
+    0.05,
+    0.12
+   ]
+  },
+  "coarser_by_more_than_100pct": {
+   "k": 1363,
+   "pct": 6.49,
+   "ci95": [
+    6.17,
+    6.84
+   ]
+  },
+  "finer_by_more_than_100pct": {
+   "k": 4,
+   "pct": 0.02,
+   "ci95": [
+    0.01,
+    0.05
+   ]
+  }
+ },
+ "stated_vs_masked": {
+  "n": 20491,
+  "median": 1.0443,
+  "median_ci95": [
+   1.0436,
+   1.0451
+  ],
+  "p5_p25_p75_p95": [
+   0.9452,
+   1.0172,
+   1.0769,
+   1.1722
+  ],
+  "coarser_by_more_than_10pct": {
+   "k": 3107,
+   "pct": 15.16,
+   "ci95": [
+    14.68,
+    15.66
+   ]
+  },
+  "finer_by_more_than_10pct": {
+   "k": 709,
+   "pct": 3.46,
+   "ci95": [
+    3.22,
+    3.72
+   ]
+  },
+  "coarser_by_more_than_25pct": {
+   "k": 521,
+   "pct": 2.54,
+   "ci95": [
+    2.34,
+    2.77
+   ]
+  },
+  "finer_by_more_than_25pct": {
+   "k": 311,
+   "pct": 1.52,
+   "ci95": [
+    1.36,
+    1.69
+   ]
+  },
+  "coarser_by_more_than_50pct": {
+   "k": 158,
+   "pct": 0.77,
+   "ci95": [
+    0.66,
+    0.9
+   ]
+  },
+  "finer_by_more_than_50pct": {
+   "k": 129,
+   "pct": 0.63,
+   "ci95": [
+    0.53,
+    0.75
+   ]
+  },
+  "coarser_by_more_than_100pct": {
+   "k": 46,
+   "pct": 0.22,
+   "ci95": [
+    0.17,
+    0.3
+   ]
+  },
+  "finer_by_more_than_100pct": {
+   "k": 29,
+   "pct": 0.14,
+   "ci95": [
+    0.1,
+    0.2
+   ]
+  }
+ },
+ "stated_vs_corrected": {
+  "n": 20590,
+  "median": 1.047,
+  "median_ci95": [
+   1.0462,
+   1.0477
+  ],
+  "p5_p25_p75_p95": [
+   0.9689,
+   1.02,
+   1.0806,
+   1.1953
+  ],
+  "coarser_by_more_than_10pct": {
+   "k": 3471,
+   "pct": 16.86,
+   "ci95": [
+    16.35,
+    17.38
+   ]
+  },
+  "finer_by_more_than_10pct": {
+   "k": 481,
+   "pct": 2.34,
+   "ci95": [
+    2.14,
+    2.55
+   ]
+  },
+  "coarser_by_more_than_25pct": {
+   "k": 700,
+   "pct": 3.4,
+   "ci95": [
+    3.16,
+    3.66
+   ]
+  },
+  "finer_by_more_than_25pct": {
+   "k": 166,
+   "pct": 0.81,
+   "ci95": [
+    0.69,
+    0.94
+   ]
+  },
+  "coarser_by_more_than_50pct": {
+   "k": 231,
+   "pct": 1.12,
+   "ci95": [
+    0.99,
+    1.28
+   ]
+  },
+  "finer_by_more_than_50pct": {
+   "k": 53,
+   "pct": 0.26,
+   "ci95": [
+    0.2,
+    0.34
+   ]
+  },
+  "coarser_by_more_than_100pct": {
+   "k": 59,
+   "pct": 0.29,
+   "ci95": [
+    0.22,
+    0.37
+   ]
+  },
+  "finer_by_more_than_100pct": {
+   "k": 18,
+   "pct": 0.09,
+   "ci95": [
+    0.06,
+    0.14
+   ]
+  }
+ },
+ "stated_vs_own_curve": {
+  "n": 13756,
+  "median": 0.9997,
+  "median_ci95": [
+   0.9997,
+   0.9998
+  ],
+  "p5_p25_p75_p95": [
+   0.9796,
+   0.9962,
+   1.0013,
+   1.0261
+  ],
+  "coarser_by_more_than_10pct": {
+   "k": 335,
+   "pct": 2.44,
+   "ci95": [
+    2.19,
+    2.71
+   ]
+  },
+  "finer_by_more_than_10pct": {
+   "k": 108,
+   "pct": 0.79,
+   "ci95": [
+    0.65,
+    0.95
+   ]
+  },
+  "coarser_by_more_than_25pct": {
+   "k": 127,
+   "pct": 0.92,
+   "ci95": [
+    0.78,
+    1.1
+   ]
+  },
+  "finer_by_more_than_25pct": {
+   "k": 30,
+   "pct": 0.22,
+   "ci95": [
+    0.15,
+    0.31
+   ]
+  },
+  "coarser_by_more_than_50pct": {
+   "k": 21,
+   "pct": 0.15,
+   "ci95": [
+    0.1,
+    0.23
+   ]
+  },
+  "finer_by_more_than_50pct": {
+   "k": 8,
+   "pct": 0.06,
+   "ci95": [
+    0.03,
+    0.11
+   ]
+  },
+  "coarser_by_more_than_100pct": {
+   "k": 4,
+   "pct": 0.03,
+   "ci95": [
+    0.01,
+    0.07
+   ]
+  },
+  "finer_by_more_than_100pct": {
+   "k": 0,
+   "pct": 0.0,
+   "ci95": [
+    0.0,
+    0.03
+   ]
+  },
+  "within_1pct": 75.71
+ },
+ "own_curve_vs_corrected": {
+  "n": 13489,
+  "median": 1.0467,
+  "median_ci95": [
+   1.0456,
+   1.0475
+  ],
+  "p5_p25_p75_p95": [
+   0.9683,
+   1.02,
+   1.0803,
+   1.1882
+  ],
+  "coarser_by_more_than_10pct": {
+   "k": 2264,
+   "pct": 16.78,
+   "ci95": [
+    16.16,
+    17.42
+   ]
+  },
+  "finer_by_more_than_10pct": {
+   "k": 388,
+   "pct": 2.88,
+   "ci95": [
+    2.61,
+    3.17
+   ]
+  },
+  "coarser_by_more_than_25pct": {
+   "k": 419,
+   "pct": 3.11,
+   "ci95": [
+    2.83,
+    3.41
+   ]
+  },
+  "finer_by_more_than_25pct": {
+   "k": 109,
+   "pct": 0.81,
+   "ci95": [
+    0.67,
+    0.97
+   ]
+  },
+  "coarser_by_more_than_50pct": {
+   "k": 119,
+   "pct": 0.88,
+   "ci95": [
+    0.74,
+    1.05
+   ]
+  },
+  "finer_by_more_than_50pct": {
+   "k": 26,
+   "pct": 0.19,
+   "ci95": [
+    0.13,
+    0.28
+   ]
+  },
+  "coarser_by_more_than_100pct": {
+   "k": 37,
+   "pct": 0.27,
+   "ci95": [
+    0.2,
+    0.38
+   ]
+  },
+  "finer_by_more_than_100pct": {
+   "k": 2,
+   "pct": 0.01,
+   "ci95": [
+    0.0,
+    0.05
+   ]
+  }
+ },
+ "unmasked_over_masked": {
+  "n": 20491,
+  "median": 1.1709,
+  "median_ci95": [
+   1.1692,
+   1.1729
+  ],
+  "p5_p25_p75_p95": [
+   1.0523,
+   1.1147,
+   1.2862,
+   1.8946
+  ],
+  "coarser_by_more_than_10pct": {
+   "k": 16709,
+   "pct": 81.54,
+   "ci95": [
+    81.01,
+    82.07
+   ]
+  },
+  "finer_by_more_than_10pct": {
+   "k": 6,
+   "pct": 0.03,
+   "ci95": [
+    0.01,
+    0.06
+   ]
+  },
+  "coarser_by_more_than_25pct": {
+   "k": 6109,
+   "pct": 29.81,
+   "ci95": [
+    29.19,
+    30.44
+   ]
+  },
+  "finer_by_more_than_25pct": {
+   "k": 3,
+   "pct": 0.01,
+   "ci95": [
+    0.0,
+    0.04
+   ]
+  },
+  "coarser_by_more_than_50pct": {
+   "k": 2776,
+   "pct": 13.55,
+   "ci95": [
+    13.09,
+    14.02
+   ]
+  },
+  "finer_by_more_than_50pct": {
+   "k": 2,
+   "pct": 0.01,
+   "ci95": [
+    0.0,
+    0.04
+   ]
+  },
+  "coarser_by_more_than_100pct": {
+   "k": 705,
+   "pct": 3.44,
+   "ci95": [
+    3.2,
+    3.7
+   ]
+  },
+  "finer_by_more_than_100pct": {
+   "k": 1,
+   "pct": 0.0,
+   "ci95": [
+    0.0,
+    0.03
+   ]
+  }
+ },
+ "tail_definition": "corrected / stated > 1.25",
+ "tail_n": 700,
+ "tail_base_n": 20590,
+ "tail_by_band": {
+  "0-3 A": {
+   "tail": 69,
+   "n": 6526,
+   "pct": 1.06,
+   "ci95": [
+    0.84,
+    1.34
+   ]
+  },
+  "10-up A": {
+   "tail": 134,
+   "n": 721,
+   "pct": 18.59,
+   "ci95": [
+    15.92,
+    21.59
+   ]
+  },
+  "3-4 A": {
+   "tail": 123,
+   "n": 10027,
+   "pct": 1.23,
+   "ci95": [
+    1.03,
+    1.46
+   ]
+  },
+  "4-6 A": {
+   "tail": 255,
+   "n": 2211,
+   "pct": 11.53,
+   "ci95": [
+    10.27,
+    12.93
+   ]
+  },
+  "6-10 A": {
+   "tail": 119,
+   "n": 1105,
+   "pct": 10.77,
+   "ci95": [
+    9.08,
+    12.73
+   ]
+  }
+ },
+ "tail_by_method": {
+  "helical": {
+   "tail": 17,
+   "n": 868,
+   "pct": 1.96,
+   "ci95": [
+    1.23,
+    3.11
+   ]
+  },
+  "singleParticle": {
+   "tail": 549,
+   "n": 18808,
+   "pct": 2.92,
+   "ci95": [
+    2.69,
+    3.17
+   ]
+  },
+  "subtomogramAveraging": {
+   "tail": 134,
+   "n": 914,
+   "pct": 14.66,
+   "ci95": [
+    12.52,
+    17.1
+   ]
+  }
+ },
+ "tail_by_year": {
+  "2016": {
+   "tail": 1,
+   "n": 8,
+   "pct": 12.5,
+   "ci95": [
+    2.24,
+    47.09
+   ]
+  },
+  "2017": {
+   "tail": 0,
+   "n": 14,
+   "pct": 0.0,
+   "ci95": [
+    0.0,
+    21.53
+   ]
+  },
+  "2018": {
+   "tail": 0,
+   "n": 72,
+   "pct": 0.0,
+   "ci95": [
+    0.0,
+    5.07
+   ]
+  },
+  "2019": {
+   "tail": 4,
+   "n": 88,
+   "pct": 4.55,
+   "ci95": [
+    1.78,
+    11.11
+   ]
+  },
+  "2020": {
+   "tail": 1,
+   "n": 78,
+   "pct": 1.28,
+   "ci95": [
+    0.23,
+    6.91
+   ]
+  },
+  "2021": {
+   "tail": 0,
+   "n": 89,
+   "pct": 0.0,
+   "ci95": [
+    0.0,
+    4.14
+   ]
+  },
+  "2022": {
+   "tail": 8,
+   "n": 141,
+   "pct": 5.67,
+   "ci95": [
+    2.9,
+    10.8
+   ]
+  },
+  "2023": {
+   "tail": 5,
+   "n": 293,
+   "pct": 1.71,
+   "ci95": [
+    0.73,
+    3.93
+   ]
+  },
+  "2024": {
+   "tail": 210,
+   "n": 4921,
+   "pct": 4.27,
+   "ci95": [
+    3.74,
+    4.87
+   ]
+  },
+  "2025": {
+   "tail": 337,
+   "n": 9386,
+   "pct": 3.59,
+   "ci95": [
+    3.23,
+    3.99
+   ]
+  },
+  "2026": {
+   "tail": 134,
+   "n": 5500,
+   "pct": 2.44,
+   "ci95": [
+    2.06,
+    2.88
+   ]
+  }
+ },
+ "tail_by_software": {
+  "RELION": {
+   "tail": 129,
+   "n": 3229,
+   "pct": 4.0,
+   "ci95": [
+    3.37,
+    4.73
+   ]
+  },
+  "cryoSPARC": {
+   "tail": 301,
+   "n": 8592,
+   "pct": 3.5,
+   "ci95": [
+    3.13,
+    3.91
+   ]
+  },
+  "not stated": {
+   "tail": 239,
+   "n": 8209,
+   "pct": 2.91,
+   "ci95": [
+    2.57,
+    3.3
+   ]
+  },
+  "other": {
+   "tail": 31,
+   "n": 560,
+   "pct": 5.54,
+   "ci95": [
+    3.93,
+    7.75
+   ]
+  }
+ },
+ "tail_by_symmetry": {
+  "C1": {
+   "tail": 175,
+   "n": 3596,
+   "pct": 4.87,
+   "ci95": [
+    4.21,
+    5.62
+   ]
+  },
+  "higher or helical": {
+   "tail": 67,
+   "n": 2271,
+   "pct": 2.95,
+   "ci95": [
+    2.33,
+    3.73
+   ]
+  },
+  "not stated": {
+   "tail": 458,
+   "n": 14723,
+   "pct": 3.11,
+   "ci95": [
+    2.84,
+    3.4
+   ]
+  }
+ },
+ "tail_with_own_curve": {
+  "n": 425,
+  "own_curve_agrees_with_stated_within_5pct": 390,
+  "own_curve_agrees_with_corrected_within_10pct": 16
+ },
+ "opposite_tail_n": 166
+}

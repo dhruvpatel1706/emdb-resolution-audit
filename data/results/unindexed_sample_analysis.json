@@ -1,0 +1,383 @@
+{
+ "input_lines": 670,
+ "entries": 650,
+ "definition": "tail: corrected / stated > 1.25 (as analysis_v2.json)",
+ "pre2024": {
+  "pool_n": 12992,
+  "sampled": 500,
+  "status": {
+   "compared": 498,
+   "no_relion_fsc": 2
+  },
+  "compared": 498,
+  "with_corrected": 496,
+  "tail": 15,
+  "tail_pct": 3.02,
+  "tail_ci95": [
+   1.84,
+   4.93
+  ],
+  "corrected_over_stated": {
+   "median": 1.0435,
+   "p25_p75": [
+    1.0144,
+    1.0778
+   ],
+   "within_10pct": 81.85
+  },
+  "unrounded": {
+   "median": 1.0434755732690078,
+   "p25_p75": [
+    1.0143636477195659,
+    1.0778185013759496
+   ],
+   "within_10pct": 81.85483870967742,
+   "unmasked_median": 1.202473743993297,
+   "unmasked_coarser_by_more_than_25pct": 38.35341365461847
+  },
+  "unmasked_over_stated": {
+   "median": 1.2025,
+   "coarser_by_more_than_25pct": 38.35
+  },
+  "stated_below_4A": {
+   "tail": 4,
+   "n": 351,
+   "pct": 1.14,
+   "ci95": [
+    0.44,
+    2.89
+   ]
+  },
+  "stated_4A_or_coarser": {
+   "tail": 11,
+   "n": 145,
+   "pct": 7.59,
+   "ci95": [
+    4.29,
+    13.07
+   ]
+  },
+  "tail_by_band": {
+   "0-3 A": {
+    "tail": 0,
+    "n": 116
+   },
+   "10-up A": {
+    "tail": 3,
+    "n": 31
+   },
+   "3-4 A": {
+    "tail": 4,
+    "n": 235
+   },
+   "4-6 A": {
+    "tail": 6,
+    "n": 68
+   },
+   "6-10 A": {
+    "tail": 2,
+    "n": 46
+   }
+  },
+  "own_curve": {
+   "n": 320,
+   "agrees_with_stated_within_1pct": 228
+  },
+  "tail_own_curve": {
+   "n": 9,
+   "agrees_with_stated_within_5pct": 8
+  },
+  "tail_entries": [
+   {
+    "id": "EMD-10294",
+    "release_date": "2019-11-06",
+    "method": "singleParticle",
+    "stated": 4.6,
+    "unmasked": 7.593,
+    "corrected": 6.325,
+    "own": 4.558
+   },
+   {
+    "id": "EMD-10638",
+    "release_date": "2020-03-18",
+    "method": "subtomogramAveraging",
+    "stated": 17.5,
+    "unmasked": 29.07,
+    "corrected": 29.07,
+    "own": null
+   },
+   {
+    "id": "EMD-11686",
+    "release_date": "2020-09-16",
+    "method": "singleParticle",
+    "stated": 4.8,
+    "unmasked": 9.823,
+    "corrected": 6.105,
+    "own": 4.748
+   },
+   {
+    "id": "EMD-11765",
+    "release_date": "2021-07-07",
+    "method": "singleParticle",
+    "stated": 3.59,
+    "unmasked": 222.222,
+    "corrected": 243.902,
+    "own": 3.563
+   },
+   {
+    "id": "EMD-14812",
+    "release_date": "2022-11-09",
+    "method": "singleParticle",
+    "stated": 4.8,
+    "unmasked": 7.974,
+    "corrected": 6.238,
+    "own": null
+   },
+   {
+    "id": "EMD-16827",
+    "release_date": "2023-06-14",
+    "method": "singleParticle",
+    "stated": 8.2,
+    "unmasked": 10.684,
+    "corrected": 10.684,
+    "own": 8.237
+   },
+   {
+    "id": "EMD-25960",
+    "release_date": "2022-04-20",
+    "method": "singleParticle",
+    "stated": 4.7,
+    "unmasked": 15.015,
+    "corrected": 14.771,
+    "own": 4.693
+   },
+   {
+    "id": "EMD-28805",
+    "release_date": "2023-09-06",
+    "method": "subtomogramAveraging",
+    "stated": 24.0,
+    "unmasked": 33.557,
+    "corrected": 33.445,
+    "own": null
+   },
+   {
+    "id": "EMD-33208",
+    "release_date": "2023-05-10",
+    "method": "subtomogramAveraging",
+    "stated": 11.9,
+    "unmasked": 30.395,
+    "corrected": 16.863,
+    "own": 11.905
+   },
+   {
+    "id": "EMD-33281",
+    "release_date": "2022-09-21",
+    "method": "singleParticle",
+    "stated": 4.5,
+    "unmasked": 7.491,
+    "corrected": 6.39,
+    "own": 4.413
+   },
+   {
+    "id": "EMD-36540",
+    "release_date": "2023-07-05",
+    "method": "singleParticle",
+    "stated": 3.91,
+    "unmasked": 9.166,
+    "corrected": 6.711,
+    "own": null
+   },
+   {
+    "id": "EMD-37126",
+    "release_date": "2023-09-13",
+    "method": "singleParticle",
+    "stated": 3.07,
+    "unmasked": 14.815,
+    "corrected": 14.815,
+    "own": 14.859
+   },
+   {
+    "id": "EMD-41333",
+    "release_date": "2023-11-08",
+    "method": "singleParticle",
+    "stated": 3.0,
+    "unmasked": 5.464,
+    "corrected": 4.037,
+    "own": null
+   },
+   {
+    "id": "EMD-4513",
+    "release_date": "2019-04-24",
+    "method": "singleParticle",
+    "stated": 4.7,
+    "unmasked": 6.116,
+    "corrected": 5.97,
+    "own": 4.572
+   },
+   {
+    "id": "EMD-4546",
+    "release_date": "2016-08-24",
+    "method": "singleParticle",
+    "stated": 9.4,
+    "unmasked": 14.535,
+    "corrected": 14.535,
+    "own": null
+   }
+  ]
+ },
+ "from2024": {
+  "pool_n": 7514,
+  "sampled": 150,
+  "status": {
+   "compared": 139,
+   "failed": 4,
+   "no_relion_fsc": 3,
+   "no_unmasked": 4
+  },
+  "compared": 139,
+  "with_corrected": 139,
+  "tail": 5,
+  "tail_pct": 3.6,
+  "tail_ci95": [
+   1.55,
+   8.14
+  ],
+  "corrected_over_stated": {
+   "median": 1.0563,
+   "p25_p75": [
+    1.0223,
+    1.0838
+   ],
+   "within_10pct": 79.86
+  },
+  "unrounded": {
+   "median": 1.0563231503781638,
+   "p25_p75": [
+    1.0223282194267374,
+    1.0837982106994302
+   ],
+   "within_10pct": 79.85611510791367,
+   "unmasked_median": 1.2099652739966362,
+   "unmasked_coarser_by_more_than_25pct": 41.007194244604314
+  },
+  "unmasked_over_stated": {
+   "median": 1.21,
+   "coarser_by_more_than_25pct": 41.01
+  },
+  "stated_below_4A": {
+   "tail": 3,
+   "n": 111,
+   "pct": 2.7,
+   "ci95": [
+    0.92,
+    7.65
+   ]
+  },
+  "stated_4A_or_coarser": {
+   "tail": 2,
+   "n": 28,
+   "pct": 7.14,
+   "ci95": [
+    1.98,
+    22.65
+   ]
+  },
+  "tail_by_band": {
+   "0-3 A": {
+    "tail": 2,
+    "n": 46
+   },
+   "10-up A": {
+    "tail": 0,
+    "n": 6
+   },
+   "3-4 A": {
+    "tail": 1,
+    "n": 65
+   },
+   "4-6 A": {
+    "tail": 1,
+    "n": 15
+   },
+   "6-10 A": {
+    "tail": 1,
+    "n": 7
+   }
+  },
+  "own_curve": {
+   "n": 86,
+   "agrees_with_stated_within_1pct": 64
+  },
+  "tail_own_curve": {
+   "n": 3,
+   "agrees_with_stated_within_5pct": 3
+  },
+  "tail_entries": [
+   {
+    "id": "EMD-37730",
+    "release_date": "2024-05-15",
+    "method": "subtomogramAveraging",
+    "stated": 8.4,
+    "unmasked": 11.521,
+    "corrected": 11.534,
+    "own": null
+   },
+   {
+    "id": "EMD-43035",
+    "release_date": "2024-02-21",
+    "method": "singleParticle",
+    "stated": 3.31,
+    "unmasked": 7.68,
+    "corrected": 7.68,
+    "own": 3.31
+   },
+   {
+    "id": "EMD-46060",
+    "release_date": "2025-02-26",
+    "method": "helical",
+    "stated": 2.7,
+    "unmasked": 4.843,
+    "corrected": 4.843,
+    "own": null
+   },
+   {
+    "id": "EMD-50393",
+    "release_date": "2024-09-11",
+    "method": "singleParticle",
+    "stated": 4.7,
+    "unmasked": 11.211,
+    "corrected": 6.112,
+    "own": 4.73
+   },
+   {
+    "id": "EMD-65585",
+    "release_date": "2026-04-01",
+    "method": "singleParticle",
+    "stated": 2.61,
+    "unmasked": 7.321,
+    "corrected": 3.415,
+    "own": 2.614
+   }
+  ]
+ },
+ "combined": {
+  "indexed_tail": 700,
+  "indexed_base": 20590,
+  "indexed_pct": 3.4,
+  "estimated_base": 40632,
+  "pct": 3.32,
+  "bootstrap_ci95": [
+   2.62,
+   4.09
+  ],
+  "unrounded": {
+   "pct": 3.315355567787375,
+   "base": 40631.8037260274,
+   "bootstrap_ci95": [
+    2.622669026369856,
+    4.09265857313891
+   ]
+  },
+  "note": "failed downloads are left out of each stratum's denominator"
+ }
+}

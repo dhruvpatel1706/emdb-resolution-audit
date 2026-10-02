@@ -1,0 +1,1330 @@
+{
+ "n": 60,
+ "agree_counts": {
+  "unmasked": 60,
+  "masked": 59,
+  "corrected": 59
+ },
+ "entries": [
+  {
+   "emdb_id": "EMD-18652",
+   "sample": "tail",
+   "author_A": 3.0,
+   "va_fsc_block_unmasked_0143": 17.152658662092627,
+   "va_author_resolution": 3.0,
+   "index": {
+    "unmasked": 17.605635,
+    "masked": 14.749263,
+    "corrected": 17.605635
+   },
+   "va_record": {
+    "unmasked": 17.6056338028169,
+    "masked": 14.749262536873157,
+    "corrected": 17.6056338028169
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-18754",
+   "sample": "random",
+   "author_A": 2.4,
+   "va_fsc_block_unmasked_0143": 3.3829499323410017,
+   "va_author_resolution": 2.4,
+   "index": {
+    "unmasked": 3.3829498,
+    "masked": 2.689618,
+    "corrected": 2.695418
+   },
+   "va_record": {
+    "unmasked": 3.3829499323410017,
+    "masked": 2.6896180742334588,
+    "corrected": 2.6954177897574123
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-19020",
+   "sample": "tail",
+   "author_A": 3.25,
+   "va_fsc_block_unmasked_0143": 344.82758620689657,
+   "va_author_resolution": 3.25,
+   "index": {
+    "unmasked": 131.57895,
+    "masked": 147.05882,
+    "corrected": 78.125
+   },
+   "va_record": {
+    "unmasked": 131.57894736842104,
+    "masked": 147.05882352941177,
+    "corrected": 78.125
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-19270",
+   "sample": "tail",
+   "author_A": 2.95,
+   "va_fsc_block_unmasked_0143": 19.68503937007874,
+   "va_author_resolution": 2.95,
+   "index": {
+    "unmasked": 20.040081,
+    "masked": 19.047619,
+    "corrected": 18.69159
+   },
+   "va_record": {
+    "unmasked": 20.04008016032064,
+    "masked": 19.047619047619047,
+    "corrected": 18.69158878504673
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-19280",
+   "sample": "tail",
+   "author_A": 2.57,
+   "va_fsc_block_unmasked_0143": 18.726591760299623,
+   "va_author_resolution": 2.57,
+   "index": {
+    "unmasked": 19.23077,
+    "masked": 17.825312,
+    "corrected": 18.115942
+   },
+   "va_record": {
+    "unmasked": 19.23076923076923,
+    "masked": 17.825311942959004,
+    "corrected": 18.115942028985508
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-19281",
+   "sample": "tail",
+   "author_A": 2.58,
+   "va_fsc_block_unmasked_0143": 17.88908765652952,
+   "va_author_resolution": 2.58,
+   "index": {
+    "unmasked": 18.281536,
+    "masked": 12.903226,
+    "corrected": 16.863407
+   },
+   "va_record": {
+    "unmasked": 18.281535648994517,
+    "masked": 12.903225806451614,
+    "corrected": 16.863406408094434
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-19285",
+   "sample": "tail",
+   "author_A": 4.01,
+   "va_fsc_block_unmasked_0143": 20.920502092050206,
+   "va_author_resolution": 4.01,
+   "index": {
+    "unmasked": 21.231422,
+    "masked": 19.762846,
+    "corrected": 19.762846
+   },
+   "va_record": {
+    "unmasked": 21.231422505307854,
+    "masked": 19.76284584980237,
+    "corrected": 19.76284584980237
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-19442",
+   "sample": "tail",
+   "author_A": 2.65,
+   "va_fsc_block_unmasked_0143": 38.61003861003861,
+   "va_author_resolution": 2.65,
+   "index": {
+    "unmasked": 41.666668,
+    "masked": 41.322315,
+    "corrected": 41.666668
+   },
+   "va_record": {
+    "unmasked": 41.666666666666664,
+    "masked": 41.32231404958678,
+    "corrected": 41.666666666666664
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-19526",
+   "sample": "random",
+   "author_A": 2.8,
+   "va_fsc_block_unmasked_0143": 3.8624951718810348,
+   "va_author_resolution": 2.8,
+   "index": {
+    "unmasked": 3.900156,
+    "masked": 2.7601435,
+    "corrected": 2.7586207
+   },
+   "va_record": {
+    "unmasked": 3.900156006240249,
+    "masked": 2.760143527463428,
+    "corrected": 2.7586206896551726
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-35186",
+   "sample": "random",
+   "author_A": 6.01,
+   "va_fsc_block_unmasked_0143": 8.143322475570033,
+   "va_author_resolution": 6.01,
+   "index": {
+    "unmasked": 8.244023,
+    "masked": 5.6561084,
+    "corrected": 5.6689343
+   },
+   "va_record": {
+    "unmasked": 8.244023083264633,
+    "masked": 5.656108597285067,
+    "corrected": 5.668934240362812
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-37441",
+   "sample": "tail",
+   "author_A": 2.71,
+   "va_fsc_block_unmasked_0143": 16.666666666666668,
+   "va_author_resolution": 2.71,
+   "index": {
+    "unmasked": 21.881838,
+    "masked": 21.786493,
+    "corrected": 21.881838
+   },
+   "va_record": {
+    "unmasked": 21.88183807439825,
+    "masked": 21.78649237472767,
+    "corrected": 21.88183807439825
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-37905",
+   "sample": "random",
+   "author_A": 4.0,
+   "va_fsc_block_unmasked_0143": 4.458314757021846,
+   "va_author_resolution": 4.0,
+   "index": {
+    "unmasked": 4.518753,
+    "masked": 4.145937,
+    "corrected": 4.1373606
+   },
+   "va_record": {
+    "unmasked": 4.518752824220515,
+    "masked": 4.1459369817578775,
+    "corrected": 4.137360364087712
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-38623",
+   "sample": "tail",
+   "author_A": 3.29,
+   "va_fsc_block_unmasked_0143": 56.81818181818181,
+   "va_author_resolution": 3.29,
+   "index": {
+    "unmasked": 68.49315,
+    "masked": 23.255814,
+    "corrected": 52.083332
+   },
+   "va_record": {
+    "unmasked": 68.4931506849315,
+    "masked": 23.255813953488374,
+    "corrected": 52.083333333333336
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-39763",
+   "sample": "tail",
+   "author_A": 3.23,
+   "va_fsc_block_unmasked_0143": 147.05882352941177,
+   "va_author_resolution": 3.23,
+   "index": {
+    "unmasked": 434.78262,
+    "masked": 270.27026,
+    "corrected": 277.77777
+   },
+   "va_record": {
+    "unmasked": 434.7826086956522,
+    "masked": 270.27027027027026,
+    "corrected": 277.77777777777777
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-41151",
+   "sample": "random",
+   "author_A": 2.57,
+   "va_fsc_block_unmasked_0143": 3.1928480204342273,
+   "va_author_resolution": 2.57,
+   "index": {
+    "unmasked": 3.219575,
+    "masked": 2.6511135,
+    "corrected": 2.6462028
+   },
+   "va_record": {
+    "unmasked": 3.2195750160978753,
+    "masked": 2.651113467656416,
+    "corrected": 2.646202699126753
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-42363",
+   "sample": "random",
+   "author_A": 3.3,
+   "va_fsc_block_unmasked_0143": 4.1118421052631575,
+   "va_author_resolution": 3.3,
+   "index": {
+    "unmasked": 4.145937,
+    "masked": 3.4698126,
+    "corrected": 3.4746351
+   },
+   "va_record": {
+    "unmasked": 4.1459369817578775,
+    "masked": 3.4698126301179735,
+    "corrected": 3.4746351633078527
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-42932",
+   "sample": "tail",
+   "author_A": 2.72,
+   "va_fsc_block_unmasked_0143": 28.901734104046245,
+   "va_author_resolution": 2.72,
+   "index": {
+    "unmasked": 30.959753,
+    "masked": 30.959753,
+    "corrected": 31.74603
+   },
+   "va_record": {
+    "unmasked": 30.959752321981423,
+    "masked": 30.959752321981423,
+    "corrected": 31.746031746031747
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-43270",
+   "sample": "random",
+   "author_A": 2.31,
+   "va_fsc_block_unmasked_0143": 2.6525198938992043,
+   "va_author_resolution": 2.31,
+   "index": {
+    "unmasked": 2.6659558,
+    "masked": 2.3640661,
+    "corrected": 2.3635075
+   },
+   "va_record": {
+    "unmasked": 2.6659557451346307,
+    "masked": 2.3640661938534278,
+    "corrected": 2.363507445048452
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-44166",
+   "sample": "tail",
+   "author_A": 3.5,
+   "va_fsc_block_unmasked_0143": 43.47826086956522,
+   "va_author_resolution": 3.5,
+   "index": {
+    "unmasked": 45.454544,
+    "masked": 45.045044,
+    "corrected": 45.87156
+   },
+   "va_record": {
+    "unmasked": 45.45454545454546,
+    "masked": 45.04504504504504,
+    "corrected": 45.87155963302752
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-44399",
+   "sample": "tail",
+   "author_A": 2.1,
+   "va_fsc_block_unmasked_0143": 13.157894736842106,
+   "va_author_resolution": 2.1,
+   "index": {
+    "unmasked": 17.857143,
+    "masked": 10.224949,
+    "corrected": 10.341262
+   },
+   "va_record": {
+    "unmasked": 17.857142857142858,
+    "masked": 10.183299389002038,
+    "corrected": 10.245901639344261
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-44874",
+   "sample": "random",
+   "author_A": 2.06,
+   "va_fsc_block_unmasked_0143": 2.6688017080330932,
+   "va_author_resolution": 2.06,
+   "index": {
+    "unmasked": 2.681684,
+    "masked": 2.1953897,
+    "corrected": 2.1978023
+   },
+   "va_record": {
+    "unmasked": 2.681684097613301,
+    "masked": 2.195389681668496,
+    "corrected": 2.1978021978021975
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-44934",
+   "sample": "random",
+   "author_A": 2.8,
+   "va_fsc_block_unmasked_0143": 3.0293850348379276,
+   "va_author_resolution": 2.8,
+   "index": {
+    "unmasked": 3.045067,
+    "masked": 2.83849,
+    "corrected": 2.840909
+   },
+   "va_record": {
+    "unmasked": 3.045066991473812,
+    "masked": 2.838489923360772,
+    "corrected": 2.8409090909090913
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-44984",
+   "sample": "random",
+   "author_A": 9.7,
+   "va_fsc_block_unmasked_0143": 9.354536950420954,
+   "va_author_resolution": 9.7,
+   "index": {
+    "unmasked": 9.560229,
+    "masked": 9.560229,
+    "corrected": 9.505703
+   },
+   "va_record": {
+    "unmasked": 9.560229445506693,
+    "masked": 9.560229445506693,
+    "corrected": 9.505703422053232
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-45104",
+   "sample": "random",
+   "author_A": 5.0,
+   "va_fsc_block_unmasked_0143": 7.961783439490446,
+   "va_author_resolution": 5.0,
+   "index": {
+    "unmasked": 8.116883,
+    "masked": 5.9453034,
+    "corrected": 6.2735257
+   },
+   "va_record": {
+    "unmasked": 8.116883116883116,
+    "masked": 5.9453032104637344,
+    "corrected": 6.273525721455458
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-45632",
+   "sample": "random",
+   "author_A": 3.4,
+   "va_fsc_block_unmasked_0143": 3.9556962025316453,
+   "va_author_resolution": 3.4,
+   "index": {
+    "unmasked": 3.9888313,
+    "masked": 3.4770515,
+    "corrected": 3.4722223
+   },
+   "va_record": {
+    "unmasked": 3.988831272437176,
+    "masked": 3.477051460361613,
+    "corrected": 3.4722222222222223
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-46064",
+   "sample": "random",
+   "author_A": 2.43,
+   "va_fsc_block_unmasked_0143": 2.6260504201680672,
+   "va_author_resolution": 2.43,
+   "index": {
+    "unmasked": 2.6399155,
+    "masked": 2.4600246,
+    "corrected": 2.4612355
+   },
+   "va_record": {
+    "unmasked": 2.6399155227032733,
+    "masked": 2.4600246002460024,
+    "corrected": 2.461235540241201
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-47208",
+   "sample": "random",
+   "author_A": 2.52,
+   "va_fsc_block_unmasked_0143": 3.5398230088495577,
+   "va_author_resolution": 2.52,
+   "index": {
+    "unmasked": 3.5714285,
+    "masked": 2.7100272,
+    "corrected": 2.759382
+   },
+   "va_record": {
+    "unmasked": 3.571428571428571,
+    "masked": 2.710027100271003,
+    "corrected": 2.759381898454746
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-47502",
+   "sample": "random",
+   "author_A": 3.2,
+   "va_fsc_block_unmasked_0143": 4.123711340206186,
+   "va_author_resolution": 3.2,
+   "index": {
+    "unmasked": 4.159734,
+    "masked": 3.4059947,
+    "corrected": 3.39098
+   },
+   "va_record": {
+    "unmasked": 4.159733777038269,
+    "masked": 3.4059945504087192,
+    "corrected": 3.39097999321804
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-47985",
+   "sample": "random",
+   "author_A": 4.6,
+   "va_fsc_block_unmasked_0143": 5.571030640668524,
+   "va_author_resolution": 4.6,
+   "index": {
+    "unmasked": 5.643341,
+    "masked": 4.570384,
+    "corrected": 4.6040516
+   },
+   "va_record": {
+    "unmasked": 5.643340857787811,
+    "masked": 4.570383912248629,
+    "corrected": 4.6040515653775325
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-48223",
+   "sample": "random",
+   "author_A": 3.02,
+   "va_fsc_block_unmasked_0143": 3.4940600978336827,
+   "va_author_resolution": 3.02,
+   "index": {
+    "unmasked": 3.5137033,
+    "masked": 3.1575623,
+    "corrected": 3.1575623
+   },
+   "va_record": {
+    "unmasked": 3.513703443429374,
+    "masked": 3.157562361856647,
+    "corrected": 3.157562361856647
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-48601",
+   "sample": "random",
+   "author_A": 3.0,
+   "va_fsc_block_unmasked_0143": 3.5273368606701943,
+   "va_author_resolution": 3.0,
+   "index": {
+    "unmasked": 3.5599859,
+    "masked": 3.169572,
+    "corrected": 3.1897926
+   },
+   "va_record": {
+    "unmasked": 3.5599857600569598,
+    "masked": 3.1695721077654517,
+    "corrected": 3.189792663476874
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-48846",
+   "sample": "random",
+   "author_A": 2.72,
+   "va_fsc_block_unmasked_0143": 3.1123560535325243,
+   "va_author_resolution": 2.72,
+   "index": {
+    "unmasked": 3.132832,
+    "masked": 2.8417163,
+    "corrected": 2.832059
+   },
+   "va_record": {
+    "unmasked": 3.1328320802005014,
+    "masked": 2.841716396703609,
+    "corrected": 2.832058906825262
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-49362",
+   "sample": "tail",
+   "author_A": 2.58,
+   "va_fsc_block_unmasked_0143": 34.36426116838488,
+   "va_author_resolution": 2.58,
+   "index": {
+    "unmasked": 37.593987,
+    "masked": 37.453182,
+    "corrected": 38.02281
+   },
+   "va_record": {
+    "unmasked": 37.59398496240602,
+    "masked": 37.45318352059925,
+    "corrected": 38.02281368821293
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-51150",
+   "sample": "random",
+   "author_A": 2.93,
+   "va_fsc_block_unmasked_0143": 3.8226299694189603,
+   "va_author_resolution": 2.93,
+   "index": {
+    "unmasked": 3.8624952,
+    "masked": 3.254149,
+    "corrected": 3.2467532
+   },
+   "va_record": {
+    "unmasked": 3.8624951718810348,
+    "masked": 3.254149040026033,
+    "corrected": 3.2467532467532467
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-51508",
+   "sample": "random",
+   "author_A": 3.2,
+   "va_fsc_block_unmasked_0143": 3.282994090610637,
+   "va_author_resolution": 3.2,
+   "index": {
+    "unmasked": 3.3079722,
+    "masked": 3.1857278,
+    "corrected": 3.1816735
+   },
+   "va_record": {
+    "unmasked": 3.3079722130334104,
+    "masked": 3.1857279388340234,
+    "corrected": 3.1816735602927135
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-52444",
+   "sample": "random",
+   "author_A": 3.1,
+   "va_fsc_block_unmasked_0143": 3.8431975403535743,
+   "va_author_resolution": 3.1,
+   "index": {
+    "unmasked": 3.8744674,
+    "masked": 3.203075,
+    "corrected": 3.1867433
+   },
+   "va_record": {
+    "unmasked": 3.8744672607516466,
+    "masked": 3.203074951953876,
+    "corrected": 3.1867431485022304
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-53653",
+   "sample": "random",
+   "author_A": 8.0,
+   "va_fsc_block_unmasked_0143": 14.66275659824047,
+   "va_author_resolution": 8.0,
+   "index": {
+    "unmasked": 14.814815,
+    "masked": 14.814815,
+    "corrected": 14.771049
+   },
+   "va_record": {
+    "unmasked": 14.814814814814813,
+    "masked": 14.814814814814813,
+    "corrected": 14.771048744460858
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-53663",
+   "sample": "random",
+   "author_A": 4.3,
+   "va_fsc_block_unmasked_0143": 7.267441860465116,
+   "va_author_resolution": 4.3,
+   "index": {
+    "unmasked": 7.3583517,
+    "masked": 4.5745654,
+    "corrected": 4.5620437
+   },
+   "va_record": {
+    "unmasked": 7.358351729212656,
+    "masked": 4.574565416285453,
+    "corrected": 4.562043795620438
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-54701",
+   "sample": "random",
+   "author_A": 6.1,
+   "va_fsc_block_unmasked_0143": 6.821282401091405,
+   "va_author_resolution": 6.1,
+   "index": {
+    "unmasked": 6.8681316,
+    "masked": 5.192108,
+    "corrected": 6.414368
+   },
+   "va_record": {
+    "unmasked": 6.868131868131868,
+    "masked": 5.192107995846314,
+    "corrected": 6.414368184733803
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-55205",
+   "sample": "random",
+   "author_A": 13.67,
+   "va_fsc_block_unmasked_0143": 13.64256480218281,
+   "va_author_resolution": 13.67,
+   "index": {
+    "unmasked": 13.96648,
+    "masked": 13.947001,
+    "corrected": 13.96648
+   },
+   "va_record": {
+    "unmasked": 13.966480446927374,
+    "masked": 13.94700139470014,
+    "corrected": 13.966480446927374
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-55334",
+   "sample": "random",
+   "author_A": 4.09,
+   "va_fsc_block_unmasked_0143": 6.203473945409429,
+   "va_author_resolution": 4.09,
+   "index": {
+    "unmasked": 6.277464,
+    "masked": 4.1373606,
+    "corrected": 4.1220117
+   },
+   "va_record": {
+    "unmasked": 6.277463904582548,
+    "masked": 4.137360364087712,
+    "corrected": 4.122011541632316
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-55456",
+   "sample": "random",
+   "author_A": 29.0,
+   "va_fsc_block_unmasked_0143": 39.682539682539684,
+   "va_author_resolution": 29.0,
+   "index": {
+    "unmasked": 40.650406,
+    "masked": 31.74603,
+    "corrected": 32.05128
+   },
+   "va_record": {
+    "unmasked": 40.65040650406504,
+    "masked": 31.746031746031747,
+    "corrected": 32.05128205128205
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-55571",
+   "sample": "random",
+   "author_A": 2.9,
+   "va_fsc_block_unmasked_0143": 4.6082949308755765,
+   "va_author_resolution": 2.9,
+   "index": {
+    "unmasked": 4.6511626,
+    "masked": 3.1476235,
+    "corrected": 3.1585598
+   },
+   "va_record": {
+    "unmasked": 4.651162790697675,
+    "masked": 3.147623544224111,
+    "corrected": 3.158559696778269
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-57779",
+   "sample": "tail",
+   "author_A": 3.1,
+   "va_fsc_block_unmasked_0143": 119.04761904761905,
+   "va_author_resolution": 3.1,
+   "index": {
+    "unmasked": 384.6154,
+    "masked": 140.84508,
+    "corrected": 136.9863
+   },
+   "va_record": {
+    "unmasked": 384.61538461538464,
+    "masked": 140.8450704225352,
+    "corrected": 136.986301369863
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-60409",
+   "sample": "tail",
+   "author_A": 2.23,
+   "va_fsc_block_unmasked_0143": 14.144271570014144,
+   "va_author_resolution": 2.23,
+   "index": {
+    "unmasked": 11.8063755,
+    "masked": 11.820331,
+    "corrected": 11.8063755
+   },
+   "va_record": {
+    "unmasked": 11.80637544273908,
+    "masked": 11.82033096926714,
+    "corrected": 11.80637544273908
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-61677",
+   "sample": "random",
+   "author_A": 3.38,
+   "va_fsc_block_unmasked_0143": 3.9200313602508823,
+   "va_author_resolution": 3.38,
+   "index": {
+    "unmasked": 3.954132,
+    "masked": 3.49162,
+    "corrected": 3.475843
+   },
+   "va_record": {
+    "unmasked": 3.9541320680110714,
+    "masked": 3.4916201117318435,
+    "corrected": 3.475842891901286
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-61835",
+   "sample": "random",
+   "author_A": 4.0,
+   "va_fsc_block_unmasked_0143": 3.988831272437176,
+   "va_author_resolution": 4.0,
+   "index": {
+    "unmasked": 4.009623,
+    "masked": 3.49162,
+    "corrected": 3.4977264
+   },
+   "va_record": {
+    "unmasked": 4.0096230954290295,
+    "masked": 3.5945363048166787,
+    "corrected": 3.586800573888092
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": false,
+    "corrected": false
+   }
+  },
+  {
+   "emdb_id": "EMD-62418",
+   "sample": "random",
+   "author_A": 3.88,
+   "va_fsc_block_unmasked_0143": 4.32152117545376,
+   "va_author_resolution": 3.88,
+   "index": {
+    "unmasked": 4.3802013,
+    "masked": 4.0032024,
+    "corrected": 4.0241446
+   },
+   "va_record": {
+    "unmasked": 4.380201489268506,
+    "masked": 4.00320256204964,
+    "corrected": 4.0241448692152915
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-63377",
+   "sample": "random",
+   "author_A": 2.56,
+   "va_fsc_block_unmasked_0143": 3.4246575342465757,
+   "va_author_resolution": 2.56,
+   "index": {
+    "unmasked": 3.4506557,
+    "masked": 2.7839644,
+    "corrected": 2.7886224
+   },
+   "va_record": {
+    "unmasked": 3.450655624568668,
+    "masked": 2.7839643652561246,
+    "corrected": 2.7886224205242613
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-65036",
+   "sample": "random",
+   "author_A": 2.59,
+   "va_fsc_block_unmasked_0143": 2.9533372711163612,
+   "va_author_resolution": 2.59,
+   "index": {
+    "unmasked": 2.967359,
+    "masked": 2.6990554,
+    "corrected": 2.6990554
+   },
+   "va_record": {
+    "unmasked": 2.9673590504451037,
+    "masked": 2.699784017278618,
+    "corrected": 2.699784017278618
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-66675",
+   "sample": "random",
+   "author_A": 3.54,
+   "va_fsc_block_unmasked_0143": 4.088307440719542,
+   "va_author_resolution": 3.54,
+   "index": {
+    "unmasked": 4.1152263,
+    "masked": 3.7467215,
+    "corrected": 3.7467215
+   },
+   "va_record": {
+    "unmasked": 4.11522633744856,
+    "masked": 3.746721618583739,
+    "corrected": 3.746721618583739
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-70328",
+   "sample": "random",
+   "author_A": 3.3,
+   "va_fsc_block_unmasked_0143": 4.1459369817578775,
+   "va_author_resolution": 3.3,
+   "index": {
+    "unmasked": 4.1666665,
+    "masked": 3.5149386,
+    "corrected": 3.5137033
+   },
+   "va_record": {
+    "unmasked": 4.166666666666667,
+    "masked": 3.5149384885764503,
+    "corrected": 3.513703443429374
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-71348",
+   "sample": "random",
+   "author_A": 2.83,
+   "va_fsc_block_unmasked_0143": 4.137360364087712,
+   "va_author_resolution": 2.83,
+   "index": {
+    "unmasked": 4.1666665,
+    "masked": 2.9559562,
+    "corrected": 2.9524653
+   },
+   "va_record": {
+    "unmasked": 4.166666666666667,
+    "masked": 2.9797377830750893,
+    "corrected": 2.9779630732578917
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-72176",
+   "sample": "random",
+   "author_A": 2.92,
+   "va_fsc_block_unmasked_0143": 3.977724741447892,
+   "va_author_resolution": 2.92,
+   "index": {
+    "unmasked": 4.019293,
+    "masked": 3.1675642,
+    "corrected": 3.1756113
+   },
+   "va_record": {
+    "unmasked": 4.019292604501608,
+    "masked": 3.1675641431738994,
+    "corrected": 3.1756113051762465
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-72497",
+   "sample": "tail",
+   "author_A": 3.14,
+   "va_fsc_block_unmasked_0143": 3.003003003003003,
+   "va_author_resolution": 3.14,
+   "index": {
+    "unmasked": 109.89011,
+    "masked": 90.90909,
+    "corrected": 90.90909
+   },
+   "va_record": {
+    "unmasked": 109.89010989010988,
+    "masked": 90.90909090909092,
+    "corrected": 90.90909090909092
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-72849",
+   "sample": "tail",
+   "author_A": 3.44,
+   "va_fsc_block_unmasked_0143": 19.193857965451055,
+   "va_author_resolution": 3.44,
+   "index": {
+    "unmasked": 19.569471,
+    "masked": 18.348623,
+    "corrected": 19.569471
+   },
+   "va_record": {
+    "unmasked": 19.569471624266146,
+    "masked": 18.34862385321101,
+    "corrected": 19.569471624266146
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-73587",
+   "sample": "random",
+   "author_A": 3.2,
+   "va_fsc_block_unmasked_0143": 8.051529790660226,
+   "va_author_resolution": 3.2,
+   "index": {
+    "unmasked": 8.169934,
+    "masked": 3.799392,
+    "corrected": 3.7921882
+   },
+   "va_record": {
+    "unmasked": 8.169934640522877,
+    "masked": 3.799392097264438,
+    "corrected": 3.79218809252939
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-75213",
+   "sample": "tail",
+   "author_A": 6.5,
+   "va_fsc_block_unmasked_0143": 135.13513513513513,
+   "va_author_resolution": 8.0,
+   "index": {
+    "unmasked": 192.3077,
+    "masked": 243.90244,
+    "corrected": 192.3077
+   },
+   "va_record": {
+    "unmasked": 192.30769230769232,
+    "masked": 243.90243902439022,
+    "corrected": 192.30769230769232
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-76094",
+   "sample": "tail",
+   "author_A": 2.74,
+   "va_fsc_block_unmasked_0143": 72.99270072992701,
+   "va_author_resolution": 2.74,
+   "index": {
+    "unmasked": 84.745766,
+    "masked": 68.965515,
+    "corrected": 84.033615
+   },
+   "va_record": {
+    "unmasked": 84.74576271186442,
+    "masked": 68.9655172413793,
+    "corrected": 84.03361344537815
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  },
+  {
+   "emdb_id": "EMD-77480",
+   "sample": "random",
+   "author_A": 3.43,
+   "va_fsc_block_unmasked_0143": 4.0551500405515,
+   "va_author_resolution": 3.43,
+   "index": {
+    "unmasked": 4.0899796,
+    "masked": 3.539823,
+    "corrected": 3.543586
+   },
+   "va_record": {
+    "unmasked": 4.08997955010225,
+    "masked": 3.5398230088495577,
+    "corrected": 3.543586109142452
+   },
+   "agree": {
+    "unmasked": true,
+    "masked": true,
+    "corrected": true
+   }
+  }
+ ]
+}

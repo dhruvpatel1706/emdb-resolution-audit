@@ -1,0 +1,25 @@
+{
+ "url": "https://www.ebi.ac.uk/emdb/api/search/%2A%3A%2A?fl=emdb_id%2Cprimary_citation_title%2Cxref_PUBMED%2Cxref_DOI%2Cprimary_citation_year&wt=csv&rows=200000",
+ "retrieved_utc": "2026-10-01T14:31:31+00:00",
+ "http_status": 200,
+ "bytes": 9136958,
+ "rows_excluding_header": 82910,
+ "sha256": "176eb6ebc9a35b534bc55d055414cb199b0e01062e08021d023cc5dc1db68534",
+ "fields_requested": [
+  "emdb_id",
+  "primary_citation_title",
+  "xref_PUBMED",
+  "xref_DOI",
+  "primary_citation_year"
+ ],
+ "header_returned": [
+  "emdb_id",
+  "primary_citation_title",
+  "xref_PUBMED",
+  "xref_DOI",
+  "primary_citation_year"
+ ],
+ "file": "data/raw/emdb_citations_2026-10-01.csv",
+ "licence": "CC0 1.0 (wwPDB usage policy, https://www.wwpdb.org/about/usage-policies)",
+ "fields_missing_from_response": []
+}
